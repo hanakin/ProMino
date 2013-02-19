@@ -1,12 +1,12 @@
 <!-- IF S_IN_SEARCH_POPUP -->
-	<!-- INCLUDE simple_header.html -->
-	<!-- INCLUDE memberlist_search.html -->
+	<!-- INCLUDE include/simple_header.html -->
+	<!-- INCLUDE include/memberlist_search.html -->
 	<form method="post" id="results" action="{S_MODE_ACTION}" onsubmit="insert_marked(this.user); return false">
 
 <!-- ELSE -->
-	<!-- INCLUDE overall_header.html -->
+	<!-- INCLUDE include/overall_header.html -->
 	<div class="panel" id="memberlist_search"<!-- IF not S_SEARCH_USER --> style="display: none;"<!-- ENDIF -->>
-	<!-- INCLUDE memberlist_search.html -->
+	<!-- INCLUDE include/memberlist_search.html -->
 	</div>
 	<form method="post" action="{S_MODE_ACTION}">
 
@@ -41,7 +41,7 @@
 					{TOTAL_USERS}
 					<!-- IF .pagination -->
 						&bull;
-						<!-- INCLUDE pagination.html -->
+						<!-- INCLUDE include/pagination.html -->
 					<!-- ELSE -->
 						{PAGE_NUMBER}
 					<!-- ENDIF -->
@@ -155,7 +155,7 @@
 	<li class="rightside pagination">{TOTAL_USERS}
 		<!-- IF .pagination -->
 			&bull;
-			<!-- INCLUDE pagination.html -->
+			<!-- INCLUDE include/pagination.html -->
 		<!-- ELSE -->
 			{PAGE_NUMBER}
 		<!-- ENDIF -->
@@ -163,8 +163,8 @@
 </ul>
 
 <!-- IF S_IN_SEARCH_POPUP -->
-	<!-- INCLUDE simple_footer.html -->
+	<!-- INCLUDE include/simple_footer.html -->
 <!-- ELSE -->
-	<!-- INCLUDE jumpbox.html -->
-	<!-- INCLUDE overall_footer.html -->
+	<!-- INCLUDE include/jumpbox.html -->
+	<!-- INCLUDE include/overall_footer.html -->
 <!-- ENDIF -->

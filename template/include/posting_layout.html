@@ -1,4 +1,4 @@
-<!-- INCLUDE overall_header.html -->
+<!-- INCLUDE include/overall_header.html -->
 
 <!-- IF TOPIC_TITLE -->
 	<h2><a href="{U_VIEW_TOPIC}">{TOPIC_TITLE}</a></h2>
@@ -34,9 +34,9 @@
 	</div>
 <!-- ENDIF -->
 
-<!-- IF S_SHOW_DRAFTS --><!-- INCLUDE drafts.html --><!-- ENDIF -->
+<!-- IF S_SHOW_DRAFTS --><!-- INCLUDE include/drafts.html --><!-- ENDIF -->
 
-<!-- IF S_POST_REVIEW --><!-- INCLUDE posting_review.html --><!-- ENDIF -->
+<!-- IF S_POST_REVIEW --><!-- INCLUDE include/posting_review.html --><!-- ENDIF -->
 
 <!-- IF S_UNGLOBALISE -->
 	<div class="panel bg3">
@@ -59,7 +59,7 @@
 	</div>
 <!-- ENDIF -->
 
-<!-- IF S_DISPLAY_PREVIEW --><!-- INCLUDE posting_preview.html --><!-- ENDIF -->
+<!-- IF S_DISPLAY_PREVIEW --><!-- INCLUDE include/posting_preview.html --><!-- ENDIF -->
 
 <div class="panel" id="postingbox">
 	<div class="inner">
@@ -67,16 +67,16 @@
 	<h3>{L_POST_A}</h3>
 
 	<!-- DEFINE $EXTRA_POSTING_OPTIONS = 1 -->
-	<!-- INCLUDE posting_editor.html -->
+	<!-- INCLUDE include/posting_editor.html -->
 	{S_FORM_TOKEN}
 	</div>
 </div>
 
-<!-- IF S_SHOW_ATTACH_BOX --><!-- INCLUDE posting_attach_body.html --><!-- ENDIF -->
+<!-- IF S_SHOW_ATTACH_BOX --><!-- INCLUDE include/posting_attach_body.html --><!-- ENDIF -->
 
-<!-- IF S_SHOW_POLL_BOX or S_POLL_DELETE --><!-- INCLUDE posting_poll_body.html --><!-- ENDIF -->
+<!-- IF S_SHOW_POLL_BOX or S_POLL_DELETE --><!-- INCLUDE include/posting_poll_body.html --><!-- ENDIF -->
 
-<!-- IF S_DISPLAY_REVIEW --><!-- INCLUDE posting_topic_review.html --><!-- ENDIF -->
+<!-- IF S_DISPLAY_REVIEW --><!-- INCLUDE include/posting_topic_review.html --><!-- ENDIF -->
 
 </form>
 <!-- IF not S_PRIVMSGS -->
@@ -87,4 +87,4 @@
 </script>
 <!-- ENDIF -->
 
-<!-- INCLUDE overall_footer.html -->
+<!-- INCLUDE include/overall_footer.html -->

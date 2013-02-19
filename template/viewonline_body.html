@@ -1,4 +1,4 @@
-<!-- INCLUDE overall_header.html -->
+<!-- INCLUDE include/overall_header.html -->
 
 <h2>{TOTAL_REGISTERED_USERS_ONLINE}</h2>
 <p>{TOTAL_GUEST_USERS_ONLINE}<!-- IF S_SWITCH_GUEST_DISPLAY --> &bull; <a href="{U_SWITCH_GUEST_DISPLAY}">{L_SWITCH_GUEST_DISPLAY}</a><!-- ENDIF --></p>
@@ -6,7 +6,7 @@
 <ul class="linklist">
 	<li class="rightside pagination">
 		<!-- IF .pagination --> 
-			<!-- INCLUDE pagination.html -->
+			<!-- INCLUDE include/pagination.html -->
 		<!-- ELSE --> 
 			{PAGE_NUMBER}
 		<!-- ENDIF -->
@@ -58,12 +58,12 @@
 <ul class="linklist">
 	<li class="rightside pagination">
 		<!-- IF .pagination --> 
-			<!-- INCLUDE pagination.html -->
+			<!-- INCLUDE include/pagination.html -->
 		<!-- ELSE --> 
 			{PAGE_NUMBER}
 		<!-- ENDIF -->
 	</li>
 </ul>
 
-<!-- INCLUDE jumpbox.html -->
-<!-- INCLUDE overall_footer.html -->
+<!-- INCLUDE include/jumpbox.html -->
+<!-- INCLUDE include/overall_footer.html -->

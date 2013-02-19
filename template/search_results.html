@@ -1,4 +1,4 @@
-<!-- INCLUDE overall_header.html -->
+<!-- INCLUDE include/overall_header.html -->
 
 <h2><!-- IF SEARCH_TITLE -->{SEARCH_TITLE}<!-- ELSE -->{SEARCH_MATCHES}<!-- ENDIF --><!-- IF SEARCH_WORDS -->{L_COLON} <a href="{U_SEARCH_WORDS}">{SEARCH_WORDS}</a><!-- ENDIF --></h2>
 <!-- IF SEARCHED_QUERY --> <p>{L_SEARCHED_QUERY}{L_COLON} <strong>{SEARCHED_QUERY}</strong></p><!-- ENDIF -->
@@ -29,7 +29,7 @@
 			{SEARCH_MATCHES}
 			<!-- IF .pagination -->
 				&bull;
-				<!-- INCLUDE pagination.html -->
+				<!-- INCLUDE include/pagination.html -->
 			<!-- ELSE -->
 				{PAGE_NUMBER}
 			<!-- ENDIF -->
@@ -190,6 +190,6 @@
 	</ul>
 <!-- ENDIF -->
 
-<!-- INCLUDE jumpbox.html -->
+<!-- INCLUDE include/jumpbox.html -->
 
-<!-- INCLUDE overall_footer.html -->
+<!-- INCLUDE include/overall_footer.html -->

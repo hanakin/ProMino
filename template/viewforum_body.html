@@ -1,4 +1,4 @@
-<!-- INCLUDE overall_header.html -->
+<!-- INCLUDE include/overall_header.html -->
 <!-- IF U_MCP --><p>[&nbsp;<a href="{U_MCP}">{L_MCP}</a>&nbsp;]</p><!-- ENDIF -->
 <h2><a href="{U_VIEW_FORUM}">{FORUM_NAME}</a></h2>
 
@@ -31,7 +31,7 @@
 	<li class="rightside"><a href="{U_MARK_FORUMS}" data-ajax="mark_forums_read" data-overlay="false">{L_MARK_SUBFORUMS_READ}</a></li>
 </ul>
 <!-- ENDIF -->
-	<!-- INCLUDE forumlist_body.html -->
+	<!-- INCLUDE include/forumlist_body.html -->
 <!-- ENDIF -->
 
 <!-- IF S_DISPLAY_POST_INFO or .pagination or TOTAL_POSTS or TOTAL_TOPICS -->
@@ -60,7 +60,7 @@
 			<!-- IF not S_IS_BOT and U_MARK_TOPICS --><a href="{U_MARK_TOPICS}" accesskey="m" data-ajax="mark_topics_read" data-overlay="false">{L_MARK_TOPICS_READ}</a> &bull; <!-- ENDIF -->
 			<!-- IF TOTAL_TOPICS -->{TOTAL_TOPICS} &bull; <!-- ENDIF -->
 			<!-- IF .pagination -->
-				<!-- INCLUDE pagination.html -->
+				<!-- INCLUDE include/pagination.html -->
 			<!-- ELSE -->
 				{PAGE_NUMBER}
 			<!-- ENDIF -->
@@ -215,7 +215,7 @@
 			<!-- IF TOTAL_POSTS and not NEWEST_USER --> {TOTAL_POSTS}<!-- ELSEIF TOTAL_TOPICS and not NEWEST_USER --> {TOTAL_TOPICS} &bull; <!-- ENDIF -->
 			<!-- IF TOTAL_USERS -->{TOTAL_USERS} &bull; <!-- ENDIF -->
 			<!-- IF .pagination -->
-				<!-- INCLUDE pagination.html -->
+				<!-- INCLUDE include/pagination.html -->
 			<!-- ELSE -->
 				{PAGE_NUMBER}
 			<!-- ENDIF -->
@@ -224,7 +224,7 @@
 	</div>
 <!-- ENDIF -->
 
-<!-- INCLUDE jumpbox.html -->
+<!-- INCLUDE include/jumpbox.html -->
 
 <!-- IF S_DISPLAY_ONLINE_LIST -->
 	<h3><!-- IF U_VIEWONLINE --><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a><!-- ELSE -->{L_WHO_IS_ONLINE}<!-- ENDIF --></h3>
@@ -236,4 +236,4 @@
 	<p><!-- BEGIN rules -->{rules.RULE}<br /><!-- END rules --></p>
 <!-- ENDIF -->
 
-<!-- INCLUDE overall_footer.html -->
+<!-- INCLUDE include/overall_footer.html -->
