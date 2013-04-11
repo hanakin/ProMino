@@ -37,12 +37,12 @@ It also has mixins that make working with media queries extremely powerful and s
 
 ## APPROACH
 
-1. [ ] Style Guide (Colors/Fonts/Form Elements/Buttons/Look & Feel)
-2. [ ] HTML/CSS structure coding of a static representation of area51 page by page.
-3. [ ] Break it up into template files
-4. [ ] Apply aesthtics
-5. [ ] Fix template engine to work with new proposed template structure
-6. [ ] Beta/Approaval
+- [ ] 1. Style Guide (Colors/Fonts/Form Elements/Buttons/Look & Feel)
+- [ ] 2. HTML/CSS structure coding of a static representation of area51 page by page.
+- [ ] 3. Break it up into template files
+- [ ] 4. Apply aesthtics
+- [ ] 5. Fix template engine to work with new proposed template structure
+- [ ] 6. Beta/Approaval
 
 ## LICENSE
 [GNU General Public License v2](http://opensource.org/licenses/gpl-2.0.php)
