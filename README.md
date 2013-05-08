@@ -36,7 +36,7 @@ It also has mixins that make working with media queries extremely powerful and s
 
 ## APPROACH
 
-- [ ] 1. Style Guide Creation (Colors/Fonts/Form Elements/Buttons/Look & Feel)
+- [X] 1. Style Guide Creation (Colors/Fonts/Form Elements/Buttons/Look & Feel)
 - [ ] 2. Framework/Grid devlopment
 - [ ] 3. HTML/CSS prototyping of static area51 page by page.
 - [ ] 4. Break it up into template files
