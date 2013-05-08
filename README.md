@@ -1,4 +1,4 @@
-# SEMANTICSILVER
+# Mino
 
 New projet dedicated to the creation of a completely semantic modenized style to be included in future versions of PHPBB. The scope of this project will be handled in several stages. Keep in mind that this is not an inherited style but a replacement of the current default style. The use of moderen front-end workflow tools will be leveraged to enable faster prototyping.
 
