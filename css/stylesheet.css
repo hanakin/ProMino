@@ -1,0 +1,12 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			SemanticSilver (1.0)
+	Original author:	Mike Miday ( http://www.midaym.com/ )
+    --------------------------------------------------------------
+*/
+
+@import url("base.css");
+@import url("structure.css");
+@import url("module.css");
+@import url("state.css");
+@import url("theme.css");

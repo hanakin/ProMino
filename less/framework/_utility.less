@@ -1,0 +1,55 @@
+// Utility >> Descriptive common proprty simplification
+
+.no-bullets() { list-style: none; }
+.no-underline() { text-decoration: none; }
+
+.center() { text-align: center; }
+.underline() { text-decoration: underline; }
+.bold() { font-weight: bold; }
+.uppercase() { text-transform: uppercase; }
+.italic() { font-style: italic; }
+.baseline() { vertical-align: baseline; }
+.middle() { vertical-align: middle; }
+.left() { text-align: left; }
+.center() { text-align: center; }
+.right() { text-align: right; }
+
+.pointer() { cursor: pointer; }
+
+.clear() { clear: both; }
+.inline() { display: inline-block; }
+.block() { display: block; }
+
+.bg(@color) { background-color: @color; }
+.image(@image) { background-image: url("@{image}"); }
+.image-none() { background-image: none; }
+.repeat() { background-image: repeat; }
+.no-repeat() { background-image: no-repeat; }
+.repeat-x() { background-image: repeat-x; }
+.repeat-y() { background-image: repeat-y; }
+
+.relative() { position: relative;}
+.absolute() { position: absolute;}
+
+// IE7 inline-block
+// ----------------
+.ie7-inline() {
+  *display: inline; /* IE7 inline-block hack */
+  *zoom: 1;
+}
+
+// IE7 likes to collapse whitespace on either side of the inline-block elements.
+// Ems because we're attempting to match the width of a space character. Left
+// version is for form buttons, which typically come after other elements, and
+// right version is for icons, which come before. Applying both is ok, but it will
+// mean that space between those elements will be .6em (~2 space characters) in IE7,
+// instead of the 1 space in other browsers.
+.ie7-restore-left-whitespace() {
+  *margin-left: .3em;
+
+  &:first-child {
+    *margin-left: 0;
+  }
+}
+
+.ie7-restore-right-whitespace() { *margin-right: .3em; }

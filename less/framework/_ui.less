@@ -1,0 +1,210 @@
+
+/*
+	===============================================================================
+	UI Elements
+	===============================================================================
+*/
+
+/* - Icons
+----------------------------------------------*/
+@font-face {
+	font-family: '@{iconFont}';
+	src:url('../fonts/@{iconFont}.eot');
+	src:url('../fonts/@{iconFont}.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/@{iconFont}.svg#icomoon') format('svg'),
+		url('../fonts/@{iconFont}.woff') format('woff'),
+		url('../fonts/@{iconFont}.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	.ie7-restore-right-whitespace();
+	font-family: '@{iconFont}';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+    padding-right: @hspace;
+}
+
+.icon-m:before { content: "\4d"; }
+.icon-i:before { content: "\49"; }
+.icon-d:before { content: "\44"; }
+.icon-a:before { content: "\41"; }
+.icon-y:before { content: "\59"; }
+.icon-employee-id:before { content: "\71"; }
+.icon-lock:before { content: "\77"; }
+.icon-reorder:before { content: "\65"; }
+.icon-home:before { content: "\72"; }
+.icon-vcard:before { content: "\74"; }
+.icon-comments:before { content: "\79"; }
+.icon-group:before { content: "\75"; }
+.icon-envelope-alt:before { content: "\69"; }
+.icon-cc:before { content: "\6f"; }
+.icon-midaym:before { content: "\70"; }
+.icon-calendar:before { content: "\61"; }
+.icon-comment:before { content: "\73"; }
+.icon-heart:before { content: "\66"; }
+.icon-star:before { content: "\68"; }
+.icon-tag:before { content: "\6a"; }
+.icon-cloud-download:before { content: "\6b"; }
+.icon-inbox:before { content: "\6c"; }
+.icon-user:before { content: "\7a"; }
+.icon-search:before { content: "\78"; }
+.icon-cog:before { content: "\63"; }
+.icon-flickr:before { content: "\76"; }
+.icon-twitter:before { content: "\62"; }
+.icon-facebook:before { content: "\6e"; }
+.icon-github:before { content: "\6d"; }
+.icon-github-2:before { content: "\2c"; }
+.icon-linkedin:before { content: "\2e"; }
+.icon-googleplus:before { content: "\2f"; }
+.icon-pinterest:before { content: "\3f"; }
+.icon-export:before { content: "\21"; }
+
+
+/* - Button
+----------------------------------------------*/
+// Links rendered as pills
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"],
+a[class^="pill-"], 
+[class^="pill-"] > li > a {
+	font-weight: bold;
+    padding: @vspace*3 @hspace*3;
+	margin-top: @vspace;
+	margin-bottom: @vspace;
+	.border-radius(@baseBorderRadius);
+}
+
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"],
+a[class^="pill-"] { 
+	height: @baseLineHeight;
+	.inline();
+	margin: @vspace @hspace;
+}
+
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"] {
+	border: none;
+	height: auto;
+	margin: 0;
+	text-shadow: none;
+	background-image: none; // Standard, IE10
+    background-repeat: none;
+    .transition(none);
+}
+
+button.pill-dark,
+input[type="submit"].pill-dark,
+input[type="reset"].pill-dark,
+input[type="button"].pill-dark,
+a.pill-dark,
+.pill-dark > li > a {
+	background-color: @linkColorHover;
+ 	color: @white;
+}
+
+// Active state
+button.pill-dark:hover,
+input[type="submit"].pill-dark:hover,
+input[type="reset"].pill-dark:hover,
+input[type="button"].pill-dark:hover,
+a.pill-dark.active,
+.pill-dark > li.active > a,
+a.pill-dark:hover,
+.pill-dark > li > a:hover {
+	color: @white;
+ 	background-color: @linkColor;
+}
+
+button.pill-light,
+input[type="submit"].pill-light,
+input[type="reset"].pill-light,
+input[type="button"].pill-light,
+a.pill-light,
+.pill-light > li > a {
+	background-color: @white;
+ 	color: @black;
+}
+
+// Active state
+button.pill-light:hover,
+input[type="submit"].pill-light:hover,
+input[type="reset"].pill-light:hover,
+input[type="button"].pill-light:hover,
+a.pill-light.active,
+.pill-light > li.active > a,
+a.pill-light:hover,
+.pill-light > li > a:hover {
+	color: @white;
+ 	background-color: @linkColorHover;
+}
+
+
+/* - Drop Down
+----------------------------------------------*/
+.drop {
+	> a {
+		.hide-text();
+	}
+	&:hover > ul,
+	&:focus > ul {
+		.block();
+		visibility: visible;
+		z-index: 99;
+		top: 35px;
+		right: @hspace*4;
+	}
+	> ul {
+		.no-bullets();
+		.border-radius(@baseBorderRadius);
+		.bg(@black);
+		padding: @vspace*3 0;
+		float: none;
+		display: none;
+		visibility: hidden;
+		position: absolute;
+		.hide-text();
+		margin: 0;
+		//width: 111px;
+		color: @greyDark;
+		> li {
+			.block();
+			//.bg(@black);
+			//&:first-child { 
+			//	.border-top-radius(5px);
+			//	padding-top: 5px; 
+			//}
+			//&:last-child { 
+			//	.border-bottom-radius(5px);
+			//	padding-bottom: 5px; 
+			//}
+			float: none;
+			&:hover,
+			&:focus {
+				.bg(@greyDark);
+				> a { color: @white; }
+			}
+			.block();
+			padding: 0 @hspace*3;
+			color: @greyDark;
+			a {
+				.block();
+				color: @greyDark;
+				width: 100%;
+			}
+		}
+	}
+}

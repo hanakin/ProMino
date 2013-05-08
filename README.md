@@ -16,16 +16,8 @@ Since we are going to already be leveraging technology that is tried and true wi
 ###[Normalize.css](http://necolas.github.io/normalize.css/ "Normalize.css")
 Browser wars are a huge thing in evelopment and their have been many common practices over the yeras to reset all of them to behave the smae. however its usually results in a lot more overhead than is nessecary so by using normalize we focus on fixing the incosistancies. Thus eliviating the need to restablish everything ourselves.
 
-###[Stylus](http://learnboost.github.io/stylus/ "Stylus")
+###[Less](http://lesscss.org/ "Less")
 Devlopment time is a huge concern these days with anything so if there are anyways to speed up the prototping and creation of files then we should leverage it at least at the development level. That is why when it comes to CSS you need to really rely on a preprocessor to enable the devloper to make broad strokes to handle things rather than millons of little ones.
-
-The acctual selection of Stylus is due to the framework choice
-
-###[nib](http://visionmedia.github.io/nib/ "nib")
-When it comes to preprocessors for CSS you really need some libraries to utilize when adding vendor prefixes. Thats where NIB comes in
-
-###[Jeet](http://jeetframework.com/ "Jeet")
-This was not an easy choice to make. Their are several reasons why Jeet was selected but let me first state what I was looking for in this category.
 
 I new that we needed an effective powerful way to introduce two very fundamental aspects to the theme that have been mising prior to now, a grid system & responible layouts. 
 

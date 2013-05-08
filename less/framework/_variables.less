@@ -1,0 +1,101 @@
+// Color Scheme
+// -------------------------
+@primaryColor:            	#21b5e4;
+@secondaryColor:          	#f2d54f;
+@primaryLinkColor:        	@greyDark;
+@secondaryLinkColor:      	@primaryColor;
+
+// Grays
+// -------------------------
+@blackPure: 				#000;
+@blackDark: 				darken(@blackPure,.90); // #1a1a1a
+@black:                   	darken(@blackPure,.80); // #333333
+@blackLight:              	darken(@blackPure,.70); // #4d4d4d
+
+@greyDark:                  darken(@blackPure,.60); // #666666
+@greyDarker:              	darken(@blackPure,.50); // #808080
+@grey:  		           	darken(@blackPure,.40); // #999999
+@greyLighter: 				darken(@blackPure,.30); // #b3b3b3
+@greyLight: 				darken(@blackPure,.20); // #cccccc
+
+@whiteDark: 				darken(@blackPure,.10); // #e5e5e5
+@whiteDarker: 				darken(@blackPure,.05); // #f2f2f2
+@white:                   	#fff;
+
+// Accent colors 5cb8e5, 
+// -------------------------
+@blueDark:                	#2f6fa1;
+@blue:                    	#4f9fd0;
+@red:                     	#d44950;
+@green:                   	#48d470;
+@yellow:                  	#ffcd1a;
+@orange:                  	#f98d21;
+@pink:                    	#d448ac;
+@purple:                  	#9e48d4;
+
+// Scaffolding
+// -------------------------
+@bodyBackground:          	@white;
+@textColor:               	@black;
+
+// Links
+// -------------------------
+@linkColor:               	@primaryLinkColor;
+@linkColorHover:          	@secondaryLinkColor;
+
+// Typography
+// -------------------------
+@sansFontFamily:          	"Droid Sans", Helvetica, Arial, sans-serif;
+@serifFontFamily:         	Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:          	Monaco, Menlo, Consolas, "Courier New", monospace;
+
+@baseFontSize:            	@vspace*4; //12px
+@baseLineHeight:          	@vspace * 6; //18px
+@baseFontFamily:          	@sansFontFamily;
+@altFontFamily:           	@serifFontFamily;
+
+@headingsFontFamily:      	inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:      	bold;    // instead of browser default, bold
+@headingsColor:           	inherit; // empty to use BS default, @textColor
+
+// Component sizing
+// -------------------------
+
+@fontSizeLarge:           	@vspace * 5; // ~15px
+
+@hspace:                  	3px;
+@vspace:                  	5px;
+
+@borderRadiusSmall:       	3px;
+@baseBorderRadius:        	4px;
+@borderRadiusLarge:       	6px;
+
+// Tables
+// -------------------------
+@tableBackground:         	@white; // overall background-color
+@tableBackgroundAccent:   	@whiteDarker; // for striping
+@tableBackgroundHover:    	@whiteDark; // for hover
+@tableBorder:             	@greyLighter; // table and cell border
+
+// Forms Variables
+// -------------------------
+@inputBackground:         	@white;
+@inputBorder:             	@greyLight;
+@inputBorderRadius:       	@baseBorderRadius;
+@inputDisabledBackground: 	@whiteDark;
+@formActionsBackground:   	@greyLight;
+@inputHeight:             	@baseFontSize + (@vspace*2) + 2; // base line-height + 8px vertical padding + 2px top/bottom border
+// Buttons
+@btnBackground:           	@grey;
+@btnBackgroundHighlight:  	@whiteDark;
+@btnBorder:               	none;
+
+// Input placeholder text color
+// -------------------------
+@placeholderText:         	@grey;
+
+// Icon Variables
+// -------------------------
+@iconWidth:               	@baseFontSize;
+@iconHeight:              	@baseFontSize;
+@iconFont:                	"glyph";
