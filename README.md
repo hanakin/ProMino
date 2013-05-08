@@ -25,6 +25,7 @@ Devlopment time is a huge concern these days with anything so if there are anywa
 ###Less Framework
 Stripped down and modified version of [Bootstrap](http://getbootstrap.com/ "Bootstrap"). This is being used on a generation bases only in less format inorder to reduce the ammount of css being included into the final theme files. This is soely to speed up the devlopment of a theme, as well as allow maintanace of the theme at a higher level and further provide a consistant set of guidlines in the convetion of styles.
 
+## Backstory
 I new that we needed an effective powerful way to introduce two very fundamental aspects to the theme that have been mising prior to now, a grid system & responible layouts. 
 
 I considered all the options their were. I wanted an option that did not add blot to either the HTML or the CSS. Jeet allowed me to do just that. It is a fraework unlike the rest in that it was designed to be used and disgaurded upon final render. 
