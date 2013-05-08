@@ -16,6 +16,9 @@ Since we are going to already be leveraging technology that is tried and true wi
 ###[Normalize.css](http://necolas.github.io/normalize.css/ "Normalize.css")
 Browser wars are a huge thing in evelopment and their have been many common practices over the yeras to reset all of them to behave the smae. however its usually results in a lot more overhead than is nessecary so by using normalize we focus on fixing the incosistancies. Thus eliviating the need to restablish everything ourselves.
 
+###[Semantic GS](http://semantic.gs/ "Semantic GS")
+Grid System to apply a grid to the elements via Less mixins in the stylesheet rather than through the overuse of css slectors in the markup. This drastically reduces the size of the CSS files as well as cleans up and increase the load speed of the HTML files.
+
 ###[SMACSS](http://smacss.com/ "SMACSS")
 An established set of CSS guidelines and princliples/rules to enable accurate, intuitive, & consistant seperation and structuing of CSS files for large scale projects.
 
