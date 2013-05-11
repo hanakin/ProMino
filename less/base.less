@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,
 h2,
-h3 { line-height: @vspace * 8; }
+h3 { line-height: @vspace * 8; } // ~24px
 
 h1 { font-size: @vspace * 14; } // ~42px
 h2 { font-size: @vspace * 12; } // ~36px
@@ -165,16 +165,12 @@ dd { margin-left: @baseLineHeight / 2; }
 /* - Base Forms
 ----------------------------------------------*/
 // Make all forms have space below them
-form { margin: 0 0 @baseLineHeight; }
+form { margin: 0; }
 
 fieldset {
     padding: 0;
     margin: 0;
     border: 0;
-}
-
-fieldset > article {
-    margin: @vspace*3 @hspace*3;
 }
 
 // Groups of fields with labels on top (legends)
@@ -210,7 +206,8 @@ textarea { font-family: @baseFontFamily; }
 
 // Identify controls by their labels
 label {
-    .block();
+    .inline();
+    .bold();
     margin-bottom: @vspace;
 }
 
@@ -237,23 +234,40 @@ input[type="color"] {
     .inline();
     height: @baseFontSize;
     padding: @vspace*2 @hspace*2;
-    margin-bottom: @baseLineHeight / 2;
+    // margin-bottom: @baseLineHeight / 2;
+    .middle();
     font-size: @baseFontSize;
     line-height: @baseLineHeight;
     color: @greyDark;
     .border-radius(@inputBorderRadius);
-    .middle();
+    .bg(@inputBackground);
+    border: 1px solid @inputBorder;
+    .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+    .transition(~"border linear .2s, box-shadow linear .2s");
 }
 
 // Reset appearance properties for textual inputs and textarea
-// Declare width for legacy (can't be on input[type=*] selectors or it's too specific)
-// plus 12px padding and 2px border
-input { width: 206px; }
+// Can't be on input[type=*] selectors or it's too specific
+input,
+select,
+textarea {
+    width: 100%;
+}
 
+// Reset width of input images, buttons, radios, checkboxes
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto; // Override of generic input selector
+}
 
-textarea { 
-    width: 412px;
-    height: auto;// Reset height since textareas have rows
+// Reset height since textareas have rows
+textarea {
+    height: auto;
 }
 
 // Everything else
@@ -272,17 +286,13 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    .bg(@inputBackground);
-    border: 1px solid @inputBorder;
-    .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
-    .transition(~"border linear .2s, box-shadow linear .2s");
-
     // Focus state
     &:focus {
         border-color: rgba(82,168,236,.8);
         outline: 0;
         outline: thin dotted \9; /* IE6-9 */
-        .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6)");
+        //.box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6)");
+        .box-shadow(0 0 8px rgba(82,168,236,.6));
     }
 }
 
