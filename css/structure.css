@@ -3,16 +3,6 @@
    Responsive Grid System
    ==========================================================================
 */
-.pull-right {
-  float: right;
-}
-.mobile {
-  display: none;
-  visibility: hidden;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-}
 body {
   width: 100%;
   *zoom: 1;
