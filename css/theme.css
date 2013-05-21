@@ -16,6 +16,7 @@
   font-family: 'glyphiconshalflings';
   font-style: normal;
   line-height: 1;
+  padding: 5px;
 }
 .icon-glass:before {
   content: "\e001";
@@ -506,9 +507,9 @@ input[type="button"][class^="pill-"],
 a[class^="pill-"],
 [class^="pill-"] > li > a {
   font-weight: bold;
-  padding: 15px 9px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  padding: 9px 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -520,9 +521,9 @@ input[type="submit"][class^="pill-"],
 input[type="reset"][class^="pill-"],
 input[type="button"][class^="pill-"],
 a[class^="pill-"] {
-  height: 30px;
+  height: 18px;
   display: inline-block;
-  margin: 5px 3px;
+  margin: 3px 5px;
 }
 button[class^="pill-"],
 input[type="submit"][class^="pill-"],
@@ -557,7 +558,7 @@ a.pill-dark.active,
 a.pill-dark:hover,
 .pill-dark > li > a:hover {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #666666;
 }
 button.pill-light,
 input[type="submit"].pill-light,
@@ -566,7 +567,7 @@ input[type="button"].pill-light,
 a.pill-light,
 .pill-light > li > a {
   background-color: #ffffff;
-  color: #000000;
+  color: #333333;
 }
 button.pill-light:hover,
 input[type="submit"].pill-light:hover,
@@ -594,7 +595,7 @@ a.pill-light:hover,
   visibility: visible;
   z-index: 99;
   top: 35px;
-  right: 12px;
+  right: 20px;
 }
 .drop > ul {
   list-style: none;
@@ -603,8 +604,8 @@ a.pill-light:hover,
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  background-color: #000000;
-  padding: 15px 0;
+  background-color: #333333;
+  padding: 9px 0;
   float: none;
   display: none;
   visibility: hidden;
@@ -615,17 +616,17 @@ a.pill-light:hover,
   background-color: transparent;
   border: 0;
   margin: 0;
-  color: #000000;
+  color: #666666;
 }
 .drop > ul > li {
   float: none;
   display: block;
-  padding: 0 9px;
-  color: #000000;
+  padding: 0 15px;
+  color: #666666;
 }
 .drop > ul > li:hover,
 .drop > ul > li:focus {
-  background-color: #000000;
+  background-color: #666666;
 }
 .drop > ul > li:hover > a,
 .drop > ul > li:focus > a {
@@ -633,6 +634,6 @@ a.pill-light:hover,
 }
 .drop > ul > li a {
   display: block;
-  color: #000000;
+  color: #666666;
   width: 100%;
 }

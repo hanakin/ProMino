@@ -1,0 +1,80 @@
+.badge {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #999999;
+  padding: 3px 5px;
+  margin: 0 5px;
+  line-height: 18px;
+  font-size: 10.5px;
+  font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+}
+.navbar {
+  padding: 15px 10px 6px;
+  margin: 0 0 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #333333;
+  *zoom: 1;
+}
+.navbar .badge {
+  padding: 1px 6px;
+  color: #ffffff;
+  background-color: #d44950;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  float: left;
+  position: absolute;
+  top: -21px;
+  left: 10px;
+}
+.navbar:before,
+.navbar:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.navbar:after {
+  clear: both;
+}
+.navbar-logo,
+.navbar-searchform,
+.navbar-nav {
+  float: left;
+  padding: 0 5px;
+}
+.navbar-list {
+  margin: 0;
+}
+.navbar-list li {
+  display: inline-block;
+  padding: 3px 5px;
+}
+.navbar-list li a {
+  position: relative;
+  padding: 3px 5px;
+  font-size: 14px;
+  color: #666666;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.navbar-list li a i {
+  color: #666666;
+}
+.navbar-list li a:hover {
+  color: #ffffff;
+}
+.navbar-list li a:hover i {
+  color: #ffffff;
+}

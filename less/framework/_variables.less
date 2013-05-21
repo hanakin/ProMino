@@ -8,18 +8,18 @@
 // Grays
 // -------------------------
 @blackPure: 				#000;
-@blackDark: 				darken(@blackPure,.90); // #1a1a1a
-@black:                   	darken(@blackPure,.80); // #333333
-@blackLight:              	darken(@blackPure,.70); // #4d4d4d
+@blackDark: 				lighten(@blackPure, 10%); // #1a1a1a
+@black:                   	lighten(@blackPure, 20%); // #333333
+@blackLight:              	lighten(@blackPure, 30%); // #4d4d4d
 
-@greyDark:                  darken(@blackPure,.60); // #666666
-@greyDarker:              	darken(@blackPure,.50); // #808080
-@grey:  		           	darken(@blackPure,.40); // #999999
-@greyLighter: 				darken(@blackPure,.30); // #b3b3b3
-@greyLight: 				darken(@blackPure,.20); // #cccccc
+@greyDark:                  lighten(@blackPure, 40%); // #666666
+@greyDarker:              	lighten(@blackPure, 50%); // #808080
+@grey:  		           	lighten(@blackPure, 60%); // #999999
+@greyLighter: 				lighten(@blackPure, 70%); // #b3b3b3
+@greyLight: 				lighten(@blackPure, 80%); // #cccccc
 
-@whiteDark: 				darken(@blackPure,.10); // #e5e5e5
-@whiteDarker: 				darken(@blackPure,.05); // #f2f2f2
+@whiteDark: 				lighten(@blackPure, 90%); // #e5e5e5
+@whiteDarker: 				lighten(@blackPure, 95%); // #f2f2f2
 @white:                   	#fff;
 
 // Accent colors 5cb8e5, 
@@ -63,8 +63,8 @@
 
 @fontSizeLarge:           	@vspace * 5; // ~15px
 
-@hspace:                  	3px;
-@vspace:                  	5px;
+@hspace:                  	5px;
+@vspace:                  	3px;
 
 @borderRadiusSmall:       	3px;
 @baseBorderRadius:        	4px;

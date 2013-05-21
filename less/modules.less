@@ -2,3 +2,61 @@
 @import "framework/_utility.less";
 @import "framework/_mixins.less";
 
+.badge {
+	.border-radius(4px);
+	.bg(@grey);
+	padding: @vspace @hspace;
+	margin: 0 @hspace;
+	line-height: @baseLineHeight;
+	font-size: @vspace*3.5;
+	font-family: @baseFontFamily;
+}
+
+.navbar {
+	padding: @vspace*5 @hspace*2 @vspace*2;
+	margin: 0 0 @baseLineHeight;
+	.border-radius(4px);
+	.bg(@black);
+
+	.badge { 
+		padding: @vspace/3 @hspace*1.2;
+		color: @white;
+		.bg(@red);
+		.border-radius(20px);
+		.float();
+		.absolute();
+		top: -@vspace*7;
+		left: @hspace*2;
+	}
+	.clearfix();
+}
+
+.navbar-logo, 
+.navbar-searchform,
+.navbar-nav { 
+	.float();
+	padding: 0 @hspace;
+}
+
+.navbar-list { 
+	margin: 0; 
+
+	li { 
+		.inline();
+		padding: @vspace @hspace;
+
+		a {
+			.relative();
+			padding: @vspace @hspace;
+			font-size: 14px;
+			color: @greyDark;
+			i { color: @greyDark; }
+			
+			&:hover { 
+				color: @white;
+				i { color: @white; }
+			}
+			.hide-text();
+		}
+	}
+}

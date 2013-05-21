@@ -22,26 +22,30 @@
 
         <div class="wrapper">
             <header>
-                <hgroup class="primary-nav">
-                    <a href="#"><img src="img/logo.png" alt="PHPBB" /></a>
-                    <form action="">
+                <hgroup class="navbar">
+                    <a class="navbar-logo" href="#"><img src="img/logo.png" alt="PHPBB" /></a>
+                    <form action="" class="searchform hide-mobile">
                         <input type="text" class="search" />
-                        <a href="#" title="Advanced Search"><i class="icon icon-list-alt"></i>Advanced Search</a>
+                        <a href="#" title="Advanced Search"><i class="icon icon-list-alt"></i> Advanced Search</a>
                     </form>
-                    <nav>
-                        <ul>
+                    <nav class="navbar-nav">
+                        <ul class="navbar-list">
                             <li class="hide-mobile"><a href=""><img src="avatar" alt="user" /></a></li>
                             <li class="hide-mobile"><a href="">user</a></li>
                             <li><a href=""><i class="icon icon-off"></i> Logout</a></li>
                             <li><a href=""><i class="icon icon-align-justify"></i> Links</a></li>
-                            <li><a href=""><i class="icon icon-inbox"></i> Notifications</a></li>
-                            <li><a href=""><i class="icon icon-envelope"></i> PMs</a></li>
-                            <li><a href=""><i class="icon icon-search"></i> Search</a></li>
+                            <li><a href=""><i class="icon icon-inbox"></i> Notifications <span class="badge">5</span></a></li>
+                            <li><a href=""><i class="icon icon-envelope"></i> PMs <span class="badge">2</span></a></li>
+                            <li class="mobile-only"><a href=""><i class="icon icon-search"></i> Search</a></li>
+                            <form action="" class="mobile-searchform hide-mobile">
+                                <input type="text" class="search" />
+                                <a href="#" title="Advanced Search"><i class="icon icon-list-alt"></i> Advanced Search</a>
+                             </form>
                         </span>
                     </nav>
                 </hgroup>
-                <section class="mobile-nav">
-                    <nav class="ucp side-nav">
+                <section class="side-nav">
+                    <nav class="ucp">
                         <ul>
                             <li>
                                 <span class="side-nav-head">Overview<a href="#" title="User Control Panel"><i class="icon icon-cog"></i> User Control Panel</a></span>
@@ -101,7 +105,7 @@
                             </li>
                         </ul>
                     <nav>
-                    <nav class="mcp side-nav">
+                    <nav class="mcp">
                         <ul>
                             <li>
                                 <span class="side-nav-head">Overview<a href="#" title="Moderator Control Panel"><i class="icon icon-wrench"></i> Moderator Control Panel</a></span>
