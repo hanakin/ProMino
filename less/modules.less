@@ -13,7 +13,7 @@
 }
 
 .navbar {
-	padding: @vspace*5 @hspace*2 @vspace*2;
+	padding: @vspace*3 @hspace*2;
 	margin: 0 0 @baseLineHeight;
 	.border-radius(4px);
 	.bg(@black);
@@ -25,8 +25,8 @@
 		.border-radius(20px);
 		.float();
 		.absolute();
-		top: -@vspace*7;
-		left: @hspace*2;
+		top: -@vspace*9;
+		left: @hspace*4;
 	}
 	.clearfix();
 }
@@ -35,7 +35,14 @@
 .navbar-searchform,
 .navbar-nav { 
 	.float();
-	padding: 0 @hspace;
+	padding: 0 @hspace*.4;
+}
+
+.navbar-logo {
+	height: 100%;
+	padding: 0;
+	margin-bottom: -@vspace;
+	// img { padding-top: @vspace; }
 }
 
 .navbar-list { 
@@ -43,14 +50,17 @@
 
 	li { 
 		.inline();
-		padding: @vspace @hspace;
+		padding: 0 @hspace*.25;
 
 		a {
 			.relative();
-			padding: @vspace @hspace;
+			padding: 0 @hspace;
 			font-size: 14px;
 			color: @greyDark;
-			i { color: @greyDark; }
+			i { 
+				color: @greyDark; 
+				font-size: @vspace*8;
+			}
 			
 			&:hover { 
 				color: @white;

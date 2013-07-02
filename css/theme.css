@@ -16,6 +16,7 @@
   font-family: 'glyphiconshalflings';
   font-style: normal;
   line-height: 1;
+  vertical-align: baseline;
   padding: 5px;
 }
 .icon-glass:before {

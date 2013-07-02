@@ -12,7 +12,7 @@
   font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 }
 .navbar {
-  padding: 15px 10px 6px;
+  padding: 9px 10px;
   margin: 0 0 18px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -33,8 +33,8 @@
   border-radius: 20px;
   float: left;
   position: absolute;
-  top: -21px;
-  left: 10px;
+  top: -27px;
+  left: 20px;
 }
 .navbar:before,
 .navbar:after {
@@ -49,18 +49,23 @@
 .navbar-searchform,
 .navbar-nav {
   float: left;
-  padding: 0 5px;
+  padding: 0 2px;
+}
+.navbar-logo {
+  height: 100%;
+  padding: 0;
+  margin-bottom: -3px;
 }
 .navbar-list {
   margin: 0;
 }
 .navbar-list li {
   display: inline-block;
-  padding: 3px 5px;
+  padding: 0 1.25px;
 }
 .navbar-list li a {
   position: relative;
-  padding: 3px 5px;
+  padding: 0 5px;
   font-size: 14px;
   color: #666666;
   font: 0/0 a;
@@ -71,6 +76,7 @@
 }
 .navbar-list li a i {
   color: #666666;
+  font-size: 24px;
 }
 .navbar-list li a:hover {
   color: #ffffff;

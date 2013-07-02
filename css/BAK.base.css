@@ -3,6 +3,9 @@
    Normalize - Reset v2.1.0
    ==========================================================================
 */
+* {
+  box-sizing: border-box;
+}
 article,
 aside,
 details,
