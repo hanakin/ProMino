@@ -7,7 +7,7 @@
     --------------------------------------------------------------
 */
 
-@import url("../css/base.css"); /* Base styles (Reset, Defaults) - DO NOT MAKE CHANGES TO THIS FILE */
-@import url("../css/structure.css");	/* Default structure syles (grids, responsive uilities) */
-@import url("../css/modules.css");		/* Individual components (buttons, labels, icons, alerts, modals, etc...) */
-@import url("../css/theme.css");		/* All changes for individual themes */
+@import url("../assests/css/base.css"); /* Base styles (Reset, Defaults) - DO NOT MAKE CHANGES TO THIS FILE */
+@import url("../assests/css/structure.css");	/* Default structure syles (grids, responsive uilities) */
+@import url("../assests/css/modules.css");		/* Individual components (buttons, labels, icons, alerts, modals, etc...) */
+@import url("../assests/css/theme.css");		/* All changes for individual themes */
