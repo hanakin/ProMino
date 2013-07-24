@@ -5,13 +5,12 @@
 
 .center() { text-align: center; }
 .underline() { text-decoration: underline; }
-.bold() { font-weight: bold; }
+.bold() { font-weight: 500; }
 .uppercase() { text-transform: uppercase; }
 .italic() { font-style: italic; }
 .baseline() { vertical-align: baseline; }
 .middle() { vertical-align: middle; }
 .left() { text-align: left; }
-.center() { text-align: center; }
 .right() { text-align: right; }
 
 .pointer() { cursor: pointer; }
@@ -31,6 +30,23 @@
 
 .relative() { position: relative; }
 .absolute() { position: absolute; }
+
+// Center-align a block level element
+.center-block() {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Sizing shortcuts
+.size(@width, @height) {
+	width: @width;
+	height: @height;
+}
+
+.square(@size) {
+	.size(@size, @size);
+}
 
 // IE7 inline-block
 // ----------------

@@ -1,101 +1,192 @@
 // Color Scheme
 // -------------------------
-@primaryColor:            	#21b5e4;
-@secondaryColor:          	#f2d54f;
-@primaryLinkColor:        	@greyDark;
-@secondaryLinkColor:      	@primaryColor;
+@primary-color:					#21b5e4;
+@secondary-color:				#f2d54f;
+
+// Blacks
+// -------------------------
+@blac-pure: 					#000;
+@black-dark: 					lighten(#000, 10%); // #1a1a1a
+@black:							lighten(#000, 20%); // #333333
+@black-light:					lighten(#000, 30%); // #4d4d4d
 
 // Grays
 // -------------------------
-@blackPure: 				#000;
-@blackDark: 				lighten(@blackPure, 10%); // #1a1a1a
-@black:                   	lighten(@blackPure, 20%); // #333333
-@blackLight:              	lighten(@blackPure, 30%); // #4d4d4d
+@gray-darker:					lighten(#000, 40%); // #666
+@gray-dark:						lighten(#000, 50%); // #808
+@gray:							lighten(#000, 60%); // #999
+@gray-light:					lighten(#000, 70%); // #b3b
+@gray-lighter:					lighten(#000, 80%); // #ccc
 
-@greyDark:                  lighten(@blackPure, 40%); // #666666
-@greyDarker:              	lighten(@blackPure, 50%); // #808080
-@grey:  		           	lighten(@blackPure, 60%); // #999999
-@greyLighter: 				lighten(@blackPure, 70%); // #b3b3b3
-@greyLight: 				lighten(@blackPure, 80%); // #cccccc
-
-@whiteDark: 				lighten(@blackPure, 90%); // #e5e5e5
-@whiteDarker: 				lighten(@blackPure, 95%); // #f2f2f2
-@white:                   	#fff;
+// Whites
+// -------------------------
+@white-dark:					lighten(#000, 90%); // #e5e5e5
+@white-darker:					lighten(#000, 95%); // #f2f2f2
+@white:							#fff;
 
 // Accent colors 5cb8e5, 
 // -------------------------
-@blueDark:                	#2f6fa1;
-@blue:                    	#4f9fd0;
-@red:                     	#d44950;
-@green:                   	#48d470;
-@yellow:                  	#ffcd1a;
-@orange:                  	#f98d21;
-@pink:                    	#d448ac;
-@purple:                  	#9e48d4;
+@blueDark:						#2f6fa1;
+@blue:							#4f9fd0;
+@red:							#d44950;
+@green:							#48d470;
+@yellow:						#ffcd1a;
+@orange:						#f98d21;
+@pink:							#d448ac;
+@purple:						#9e48d4;
 
 // Scaffolding
 // -------------------------
-@bodyBackground:          	@white;
-@textColor:               	@black;
+@body-bg:						@white;
+@text-color:					@black;
 
 // Links
 // -------------------------
-@linkColor:               	@primaryLinkColor;
-@linkColorHover:          	@secondaryLinkColor;
+@link-color:					@primary-color;
+@link-hover-color:				darken(@link-color, 15%);
 
 // Typography
 // -------------------------
-@sansFontFamily:          	"Droid Sans", Helvetica, Arial, sans-serif;
-@serifFontFamily:         	Georgia, "Times New Roman", Times, serif;
-@monoFontFamily:          	Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-sans-serif:		"Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:				Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:			Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-base:				@font-family-sans-serif;
 
-@baseFontSize:            	@vspace*4; //12px
-@baseLineHeight:          	@vspace * 6; //18px
-@baseFontFamily:          	@sansFontFamily;
-@altFontFamily:           	@serifFontFamily;
+@font-size-base:				14px;
+@font-size-large:				ceil(@font-size-base * 1.25); // ~18px
+@font-size-small:				ceil(@font-size-base * 0.85); // ~12px
 
-@headingsFontFamily:      	inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:      	bold;    // instead of browser default, bold
-@headingsColor:           	inherit; // empty to use BS default, @textColor
+@line-height-base:				1.428571429; // 20/14
+@line-height-computed:			floor(@font-size-base * @line-height-base); // ~20px
 
-// Component sizing
+@headings-font-family:			@font-family-base;
+@headings-font-weight:			500;
+@headings-line-height:			1.1;
+
+// Components
 // -------------------------
+// Based on 14px font-size and 1.428 line-height (~20px to start)
+@padding-base-vertical:			8px;
+@padding-base-horizontal:		12px;
 
-@fontSizeLarge:           	@vspace * 5; // ~15px
+@padding-large-vertical:		14px;
+@padding-large-horizontal:		16px;
 
-@hspace:                  	5px;
-@vspace:                  	3px;
+@padding-small-vertical:		5px;
+@padding-small-horizontal:		10px;
 
-@borderRadiusSmall:       	3px;
-@baseBorderRadius:        	4px;
-@borderRadiusLarge:       	6px;
+@border-radius-base:			4px;
+@border-radius-large:			6px;
+@border-radius-small:			3px;
 
 // Tables
 // -------------------------
-@tableBackground:         	@white; // overall background-color
-@tableBackgroundAccent:   	@whiteDarker; // for striping
-@tableBackgroundHover:    	@whiteDark; // for hover
-@tableBorder:             	@greyLighter; // table and cell border
+@table-cell-padding:			8px;
+@table-condensed-cell-padding:	5px;
 
-// Forms Variables
+@table-bg:						transparent; // overall background-color
+@table-bg-accent:				#f9f9f9; // for striping
+@table-bg-hover:				#f5f5f5;
+@table-bg-active:				@table-bg-hover;
+
+@table-border-color:			#ddd; // table and cell border
+
+// Forms
 // -------------------------
-@inputBackground:         	@white;
-@inputBorder:             	@greyLight;
-@inputBorderRadius:       	@baseBorderRadius;
-@inputDisabledBackground: 	@whiteDark;
-@formActionsBackground:   	@greyLight;
-@inputHeight:             	@baseFontSize + (@vspace*2) + 2; // base line-height + 8px vertical padding + 2px top/bottom border
+@input-bg:						#fff;
+@input-bg-disabled:				@gray-light;
+
+@input-border:					@gray-lighter;
+@input-border-radius:			@border-radius-base;
+
+@input-color-placeholder:		@gray;
+
+@input-height-base:				(@line-height-computed + (@padding-base-vertical * 2) + 2);
+@input-height-large:			(ceil(@font-size-large * @line-height-base) + (@padding-large-vertical * 2) + 2);
+@input-height-small:			(ceil(@font-size-small * @line-height-base) + (@padding-small-vertical * 2) + 2);
+
+// Form states and alerts
+// -------------------------
+
+@state-warning-text:             #c09853;
+@state-warning-bg:               #fcf8e3;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 3%);
+
+@state-danger-text:              #b94a48;
+@state-danger-bg:                #f2dede;
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 3%);
+
+@state-success-text:             #468847;
+@state-success-bg:               #dff0d8;
+@state-success-border:           darken(spin(@state-success-bg, -10), 5%);
+
+@state-info-text:                #3a87ad;
+@state-info-bg:                  #d9edf7;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
 // Buttons
-@btnBackground:           	@grey;
-@btnBackgroundHighlight:  	@whiteDark;
-@btnBorder:               	none;
+@btn-default-color:				@white;
+@btn-default-bg:				#474949;
+@btn-default-border:			@btn-default-bg;
 
-// Input placeholder text color
+// Miscellaneous
 // -------------------------
-@placeholderText:         	@grey;
+
+// Hr border color
+@hr-border:                   @gray-light;
+
+// Horizontal forms & lists
+@component-offset-horizontal: 180px;
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Tiny screen / phone
+@screen-tiny:					480px;
+@screen-phone:					@screen-tiny;
+
+// Small screen / tablet
+@screen-small:					768px;
+@screen-tablet:					@screen-small;
+
+// Medium screen / desktop
+@screen-medium:					992px;
+@screen-desktop:				@screen-medium;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-small-max:				(@screen-medium - 1);
+@screen-tablet-max:				@screen-small-max;
+
+// Large screen / wide desktop
+@screen-large:					1200px;
+@screen-large-desktop:			@screen-large;
+
+
+// Container sizes
+// --------------------------------------------------
+
+// Small screen / tablet
+@container-tablet:				728px;
+
+// Medium screen / desktop
+@container-desktop:				940px;
+
+// Large screen / wide desktop
+@container-large-desktop:		1170px;
+
+
+// Grid system
+// --------------------------------------------------
+
+// Number of columns in the grid system
+@grid-columns:					12;
+// Padding, to be divided by two and applied to the left and right of all columns
+@grid-gutter-width:				30px;
+// Point at which the navbar stops collapsing
+@grid-float-breakpoint:			@screen-tablet;
 
 // Icon Variables
 // -------------------------
-@iconWidth:               	@baseFontSize;
-@iconHeight:              	@baseFontSize;
-@iconFont:                	"glyphiconshalflings";
+@icon-width:					@font-size-base;
+@icon-height:					@font-size-base;
+@icon-font:						"Glyphicons Halflings";
