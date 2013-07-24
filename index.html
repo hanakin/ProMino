@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="theme/stylesheet.css">
 
@@ -20,43 +20,43 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="wrapper">
+        <div class="container">
             <header>
-                <hgroup class="navbar">
-                    <a class="navbar-logo" href="#"><img src="img/logo.png" alt="PHPBB" /></a>
-                    <form action="" class="searchform hide-mobile">
+                <hgroup>
+                    <a class="logo hidden-sm" href="#"><img src="img/logo.png" alt="PHPBB" /></a>
+                    <form action="" class="searchform hidden-sm">
                         <input type="text" class="search" />
-                        <a href="#" title="Advanced Search"><i class="icon icon-list-alt"></i> Advanced Search</a>
+                        <a href="#" title="Advanced Search"><span class="glyphicon glyphicon-list-alt"></span> Advanced Search</a>
                     </form>
-                    <nav class="navbar-nav">
-                        <ul class="navbar-list">
-                            <li class="hide-mobile"><a href=""><img src="avatar" alt="user" /></a></li>
-                            <li class="hide-mobile"><a href="">user</a></li>
-                            <li><a href=""><i class="icon icon-off"></i> Logout</a></li>
-                            <li><a href=""><i class="icon icon-align-justify"></i> Links</a></li>
-                            <li><a href=""><i class="icon icon-inbox"></i> Notifications <span class="badge">5</span></a></li>
-                            <li><a href=""><i class="icon icon-envelope"></i> PMs <span class="badge">2</span></a></li>
-                            <li class="mobile-only"><a href=""><i class="icon icon-search"></i> Search</a></li>
-                            <form action="" class="mobile-searchform hide-mobile">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="hidden-sm"><a href=""><img src="avatar" alt="user" /></a></li>
+                            <li class="hidden-sm"><a href="">user</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-align-justify"></span> Links</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-inbox"></span> Notifications <span class="badge">5</span></a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> PMs <span class="badge">2</span></a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-cog"></span> Control Panel</a></li>
+                            <form action="" class="mobile-searchform hidden-sm">
                                 <input type="text" class="search" />
-                                <a href="#" title="Advanced Search"><i class="icon icon-list-alt"></i> Advanced Search</a>
+                                <a href="#" title="Advanced Search"><span class="glyphicon glyphicon-list-alt"></span> Advanced Search</a>
                              </form>
                         </span>
                     </nav>
                 </hgroup>
                 <section class="side-nav">
                     <nav class="ucp">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li>
-                                <span class="side-nav-head">Overview<a href="#" title="User Control Panel"><i class="icon icon-cog"></i> User Control Panel</a></span>
+                                <span class="side-nav-head">Overview<a href="#" title="User Control Panel"><span class="glyphicon glyphicon-cog"></span> User Control Panel</a></span>
                             </li>
                         </ul>
                     </nav>
                 <!-- <section class="side-nav">
                     <nav class="ucp">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li>
-                                <span class="side-nav-head">Overview<a href="#" title="User Control Panel"><i class="icon icon-cog"></i> User Control Panel</a></span>
+                                <span class="side-nav-head">Overview<a href="#" title="User Control Panel"><span class="glyphicon glyphicon-cog"></span> User Control Panel</a></span>
                                 <ul class="side-nav-list">
                                     <li><a href="#" title="">Manage Subscriptions</a></li>
                                     <li><a href="#" title="">Manage Bookmarks</a></li>
@@ -114,16 +114,16 @@
                         </ul>
                     <nav> -->
                     <nav class="mcp">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li>
-                                <span class="side-nav-head">Overview<a href="#" title="Moderator Control Panel"><i class="icon icon-wrench"></i> Moderator Control Panel</a></span>
+                                <span class="side-nav-head">Overview<a href="#" title="Moderator Control Panel"><span class="glyphicon glyphicon-wrench"></span> Moderator Control Panel</a></span>
                             </li>
                         </ul>
                     </nav>
                     <!-- <nav class="mcp">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li>
-                                <span class="side-nav-head">Overview<a href="#" title="Moderator Control Panel"><i class="icon icon-wrench"></i> Moderator Control Panel</a></span>
+                                <span class="side-nav-head">Overview<a href="#" title="Moderator Control Panel"><span class="glyphicon glyphicon-wrench"></span> Moderator Control Panel</a></span>
                                 <ul class="side-nav-list">
                                     <li><a href="#" title="">Manage Subscriptions</a></li>
                                     <li><a href="#" title="">Manage Bookmarks</a></li>
@@ -181,33 +181,33 @@
                         </ul>
                     <nav> -->
                     <div class="breadcrumb">
-                        <a href="" title="Home"><i class="icon icon-home"></i> Board Index</a>
+                        <a href="" title="Home"><span class="glyphicon glyphicon-home"></span> Board Index</a>
                     </div>
                 </section>
             </header>
             <section class="forums">
-                <ul class="navbar-mini pull-right">
-                    <li class="navbar-drop-link"><a href="" title="Mark Read"><i class="icon icon-eye-open"></i> View</a></li>
-                    <ul class="navbar-drop-menu">
+                <ul class="navbar-mini pull-right list-unstyled">
+                    <li class="navbar-drop-link"><a href="" title="Mark Read"><span class="glyphicon glyphicon-eye-open"></span> View</a></li>
+                    <ul class="navbar-drop-menu list-unstyled">
                         <li><a href="" title="Unanswered Posts">Unanswered Posts</a></li>
                         <li><a href="" title="Unread Posts">Unread Posts</a></li>
                         <li><a href="" title="New Posts">New Posts</a></li>
                         <li><a href="" title="Your Posts">Your Posts</a></li>
                         <li><a href="" title="Active Topics">Active Topics</a></li>
                     </ul>
-                    <li><a href="" title="Mark Read"><i class="icon icon-check"></i> Mark Forums Read</a></li>
+                    <li><a href="" title="Mark Read"><span class="glyphicon glyphicon-check"></span> Mark Forums Read</a></li>
                 </ul>
-                <ol>
+                <ol class="list-unstyled">
                     <li class="forum">
                         <h2 class="forum-name"><a href="" title="FORUM">Forum</a></h2>
-                        <ol class"forum-list">
+                        <ol class="forum-list list-unstyled">
                             <li class="forum-row">
                                 <hgroup>
                                     <h2 class="forum-title"><a href="">www.phpbb.com/community/</a></h2>
                                     <dfn class="forum-description">A link back to the support forum at www.phpbb.com.</dfn>
-                                    <span class="label"></span>
+                                    <span class="label">4562</span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -218,7 +218,7 @@
                                     <dfn class="forum-description">Discuss general development subjects that are not specific to a particular version like the versioning control system we use or other infrastructure.</dfn> 
                                     <span class="badge">1186</span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="Re: Git push account - for sh… ">Re: Git push account - for sh… <small>by <a href="" class="user" title="user">user</a> <time>May 07</time></small></a>
                                     </h3>
                                 </hgroup>
@@ -227,7 +227,7 @@
                     </li>
                     <li class="forum">
                         <h2 class="forum-name"><a href="" title="PHPBB 3.x DEVELOPMENT">PHPBB 3.x Development</a></h2>
-                        <ol class"forum-list">
+                        <ol class="forum-list list-unstyled">
                             <li class="forum-list-row">
                                 <hgroup>
                                     <hgroup>
@@ -235,7 +235,7 @@
                                     <dfn class="forum-description">General discussion of development ideas and the approaches taken in the 3.x branch of phpBB. The next feature release of phpBB 3 will be 3.1/Ascreaus followed by 3.2/Arsia.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3>
                                 </hgroup>
@@ -246,18 +246,18 @@
                                     <dfn class="forum-description">Publish your own request for comments or patches for the next version of phpBB. Discuss the contributions and proposals of others. Upcoming releases are 3.1/Ascraeus and 3.2/Arsia.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
-                                <ol class="forum-list-row-sub">
+                                <ol class="forum-list-row-sub list-unstyled">
                                     <li>
                                         <hgroup>
                                             <h2 class="forum-list-row-title"><a href="">[3.x] Event Requests</a></h2>
                                             <dfn class="forum-description">Request hook events and what data needs to be sent for the new hook system.</dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                                <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                                <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                                 <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                             </h3> 
                                         </hgroup>
@@ -270,18 +270,18 @@
                                     <dfn class="forum-description">These requests for comments have lead to an implemented feature that has been successfully merged into the 3.1/Ascraeus branch. Everything listed in this forum will be available in phpBB 3.1.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
-                                <ol class="forum-list-row-sub">
+                                <ol class="forum-list-row-sub list-unstyled">
                                     <li>
                                         <hgroup>
                                             <h2 class="forum-list-row-title"><a href="">[3.1/Ascraeus] Merged Event Requests</a></h2>
                                             <dfn class="forum-description">These requests for events in core phpBB have been merged into 3.1/Ascraeus and will be available with the next release.</dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                            <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                            <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                             <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                         </h3> 
                                     </hgroup>
@@ -294,18 +294,18 @@
                                     <dfn class="forum-description">These RFCs were either rejected or have been replaced by an alternative proposal. They will not be included in phpBB.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
-                                <ol class="forum-list-row-sub">
+                                <ol class="forum-list-row-sub list-unstyled">
                                     <li>
                                         <hgroup>
                                             <h2 class="forum-list-row-title"><a href="">[3.x] Rejected Event Requests</a></h2>
                                             <dfn class="forum-description">These event requests have either been rejected by the community or have become redundant because of code changes or other events requests.</dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                                <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                                <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                                 <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                             </h3> 
                                         </hgroup>
@@ -316,14 +316,14 @@
                     </li>
                     <li class="forum">
                         <h2 class="forum-name"><a href="" title="PHPBB 4.x DEVELOPMENT">PHPBB 4.X Development</a></h2>
-                        <ol class"forum-list">
+                        <ol class="forum-list list-unstyled">
                             <li class="forum-list-row">
                                 <hgroup>
                                     <h2 class="forum-list-row-title"><a href="">[4.x] Discussion</a></h2>
                                     <dfn class="forum-description">Discuss the future of phpBB. It is still nesting in its mother's womb, but it will grow a little bigger each day. Participate in its design &amp; planning here.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -334,7 +334,7 @@
                                     <dfn class="forum-description">Publish your own request for comments or patches for phpBB4. Discuss the contributions and proposals of others.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -345,7 +345,7 @@
                                     <dfn class="forum-description">These RFCs for 4.0 have resulted in an implementation that will be shipped with the upcoming phpBB "Rhea" 4.0.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -356,7 +356,7 @@
                                     <dfn class="forum-description">These RFCs have either been rejcted by the community or they have been replaced by an alternative proposal.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -365,14 +365,14 @@
                     </li>
                     <li class="forum">
                         <h2 class="forum-name"><a href="" title='STABLE BRANCH: PHPBB "OLYMPUS" 3.0'>Stable Branch: PHPBB "Olympus" 3.0</a></h2>
-                        <ol class"forum-list">
+                        <ol class="forum-list list-unstyled">
                             <li class="forum-list-row">
                                 <hgroup>
                                     <h2 class="forum-list-row-title"><a href="">[3.0/Olympus] Discussion</a></h2>
                                     <dfn class="forum-description">Discussion of general topics related to the new version and its place in the world. Don't discuss new features, report bugs, ask for support, et cetera. Don't use this to spam for other boards or attack those boards!</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -383,7 +383,7 @@
                                     <dfn class="forum-description">Discuss features as they are added to the new version. Give us your feedback. Don't post bug reports, feature requests, support questions or suggestions here.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -394,7 +394,7 @@
                                     <dfn class="forum-description">All style (template, theme and imageset) related questions for the new release; advice, feedback here please.</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -403,14 +403,14 @@
                     </li>
                     <li class="forum">
                         <h2 class="forum-name"><a href="" title="EVERYTHING ELSE">Everything Else</a></h2>
-                        <ol class"forum-list">
+                        <ol class="forum-list list-unstyled">
                             <li class="forum-list-row">
                                 <hgroup>
                                     <h2 class="forum-list-row-title"><a href="">Chit Chat</a></h2>
                                     <dfn class="forum-description">Want to chit chat about anything, do it here ... posting here won't increase your post count (or shouldn't!). Please do not post any "phpBB" specific topics here unless they do not fit into the category above. Do not post bug reports, feature or support requests!</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -422,18 +422,18 @@
 </dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
-                                <ol class="forum-list-row-sub">
+                                <ol class="forum-list-row-sub list-unstyled">
                                     <li>
                                         <hgroup>
                                             <h2 class="forum-list-row-title"><a href="">Subforum</a></h2>
                                             <dfn class="forum-description">I'm a subforum, you can post things in me if posting works!</dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                                <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                                <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                                 <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                             </h3> 
                                         </hgroup>
@@ -444,7 +444,7 @@
                                             <dfn class="forum-description">Yep, another subforum, good this heh?</dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                                <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                                <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                                 <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                             </h3> 
                                         </hgroup>
@@ -457,7 +457,7 @@
                                     <dfn class="forum-description">This is password protected ... permissions are prefered but for quick and dirty access this may be useful - password is yogurt</dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
@@ -468,11 +468,11 @@
                                     <dfn class="forum-description">An archive of forums that are no longer in use. </dfn>
                                     <span class="label"></span>
                                     <h3 class="forum-recent">
-                                        <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                        <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                         <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                     </h3> 
                                 </hgroup>
-                                <ol class="forum-list-row-sub">
+                                <ol class="forum-list-row-sub list-unstyled">
                                     <li>
                                         <hgroup>
                                             <h2 class="forum-list-row-title"><a href="">phpBB 3.0.x MOD/Style Support</a></h2>
@@ -480,7 +480,7 @@
 Please use the support forum on phpBB.com </dfn>
                                             <span class="label"></span>
                                             <h3 class="forum-recent">
-                                                <a href="" title=""><i class="icon icon-chevron-right"></i></a>
+                                                <a href="" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
                                                 <a href="" title="text">Text <small>by <a href="" class="user" title="user">user</a> <time>22 minutes ago</time></small></a>
                                             </h3> 
                                         </hgroup>
@@ -494,7 +494,7 @@ Please use the support forum on phpBB.com </dfn>
             <section class="stats">
                 <article class="online-stats">
                     <h3>Who is Online</h3>
-                    <dl class="label-list">
+                    <dl class="label-list dl-horizontal">
                         <dt class="label-group-left">Online</dt>
                         <dd class="label-group-right">145</dd>
                         <dt class="label-group-left">Registered</dt>
@@ -507,7 +507,7 @@ Please use the support forum on phpBB.com </dfn>
                         <dd class="label-group-middle">1320</dd>
                         <dd class="label-group-right">Mar 07 2005</dd>
                     </dl>
-                    <dl class="legend-list">
+                    <dl class="legend-list dl-horizontal">
                         <dt class="legend-top">Legend</dt>
                         <dd class="managet">Management Team</dd>
                         <dd class="dev">Developers</dd>
@@ -520,7 +520,7 @@ Please use the support forum on phpBB.com </dfn>
                 </article>
                 <aside class="stats-list">
                     <h3>Statistics</h3>
-                    <dl class="label-list">
+                    <dl class="label-list dl-horizontal">
                         <dt class="label-group-left">Total Posts</dt>
                         <dd class="label-group-right">148236</dd>
                         <dt class="label-group-left">Total Topics</dt>
@@ -531,7 +531,7 @@ Please use the support forum on phpBB.com </dfn>
                     </dl>
                 </aside>
                 <div class="online-list">
-                    <dl class="label-list">
+                    <dl class="label-list dl-horizontal">
                         <dt>Regeistered Users: </dt>
                         <dt class="label-name bot"><a href="" title="">Bing [Bot]</a></dt>
                         <dt class="label-name bot"><a href="" title="">Exabot [Bot]</a></dt>
@@ -545,7 +545,7 @@ Please use the support forum on phpBB.com </dfn>
                 </div>
                 <div class="birthday-list">
                     <h3>Birthdays</h3>
-                    <dl class="label-list">
+                    <dl class="label-list dl-horizontal">
                         <dt>Congradulations: </dt>
                         <dt class="label-group-name"><a href="" title="">Psyao</a></dt>
                         <dt class="label-group-name user"><a href="" title="">ErzengelAzrael</a>
