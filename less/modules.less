@@ -1,72 +1,17 @@
+
+/* 
+   ==========================================================================
+   Modules or Components
+   ==========================================================================
+*/
+
+// Core variables and mixins
 @import "framework/_variables.less";
-@import "framework/_utility.less";
 @import "framework/_mixins.less";
 
-.badge {
-	.border-radius(4px);
-	.bg(@grey);
-	padding: @vspace @hspace;
-	margin: 0 @hspace;
-	line-height: @baseLineHeight;
-	font-size: @vspace*3.5;
-	font-family: @baseFontFamily;
-}
+// Core Components
+@import "framework/_glyphicon.less";
+@import "framework/_buttons.less";
+@import "framework/_labels.less";
 
-.navbar {
-	padding: @vspace*3 @hspace*2;
-	margin: 0 0 @baseLineHeight;
-	.border-radius(4px);
-	.bg(@black);
-
-	.badge { 
-		padding: @vspace/3 @hspace*1.2;
-		color: @white;
-		.bg(@red);
-		.border-radius(20px);
-		.float();
-		.absolute();
-		top: -@vspace*9;
-		left: @hspace*4;
-	}
-	.clearfix();
-}
-
-.navbar-logo, 
-.navbar-searchform,
-.navbar-nav { 
-	.float();
-	padding: 0 @hspace*.4;
-}
-
-.navbar-logo {
-	height: 100%;
-	padding: 0;
-	margin-bottom: -@vspace;
-	// img { padding-top: @vspace; }
-}
-
-.navbar-list { 
-	margin: 0; 
-
-	li { 
-		.inline();
-		padding: 0 @hspace*.25;
-
-		a {
-			.relative();
-			padding: 0 @hspace;
-			font-size: 14px;
-			color: @greyDark;
-			i { 
-				color: @greyDark; 
-				font-size: @vspace*8;
-			}
-			
-			&:hover { 
-				color: @white;
-				i { color: @white; }
-			}
-			.hide-text();
-		}
-	}
-}
+// Additional Components
