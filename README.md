@@ -16,9 +16,6 @@ Since we are going to already be leveraging technology that is tried and true wi
 ###[Normalize.css](http://necolas.github.io/normalize.css/ "Normalize.css")
 Browser wars are a huge thing in evelopment and their have been many common practices over the yeras to reset all of them to behave the smae. however its usually results in a lot more overhead than is nessecary so by using normalize we focus on fixing the incosistancies. Thus eliviating the need to restablish everything ourselves.
 
-###[Semantic GS](http://semantic.gs/ "Semantic GS")
-Grid System to apply a grid to the elements via Less mixins in the stylesheet rather than through the overuse of css slectors in the markup. This drastically reduces the size of the CSS files as well as cleans up and increase the load speed of the HTML files.
-
 ###[SMACSS](http://smacss.com/ "SMACSS")
 An established set of CSS guidelines and princliples/rules to enable accurate, intuitive, & consistant seperation and structuing of CSS files for large scale projects.
 
@@ -26,21 +23,19 @@ An established set of CSS guidelines and princliples/rules to enable accurate, i
 Devlopment time is a huge concern these days with anything so if there are anyways to speed up the prototping and creation of files then we should leverage it at least at the development level. That is why when it comes to CSS you need to really rely on a preprocessor to enable the devloper to make broad strokes to handle things rather than millons of little ones.
 
 ###Less Framework
-Stripped down and modified version of [Bootstrap](http://getbootstrap.com/ "Bootstrap"). This is being used on a generation bases only in less format inorder to reduce the ammount of css being included into the final theme files. This is soely to speed up the devlopment of a theme, as well as allow maintanace of the theme at a higher level and further provide a consistant set of guidlines in the convetion of styles.
+Stripped down and modified version of [Bootstrap 3.0](https://github.com/twitter/bootstrap/tree/3.0.0-wip "Bootstrap 3.0"). The css has been seperated into two parts the *Core* and the *Theme*. By doing this we alow for a celan and efficent devlopment environment using LESS to leverage all the heavy lifting while providing both a baseline css and less file in the release to better facilitate theme development upon a core set of styles.
 
 ## Backstory
 I new that we needed an effective powerful way to introduce two very fundamental aspects to the theme that have been mising prior to now, a grid system & responible layouts. 
 
-I considered all the options their were. I wanted an option that did not add blot to either the HTML or the CSS. Jeet allowed me to do just that. It is a fraework unlike the rest in that it was designed to be used and disgaurded upon final render. 
-
-It leverages the semantic grid system to handle the grid so that you apply the grid to the CSS selectors rather than to classes in the HTMl thus keeping your html very clean. 
+I considered all the options their were. I wanted an option that did not add blot to either the HTML or the CSS. In the end the [Bootstrap 3.0](https://github.com/twitter/bootstrap/tree/3.0.0-wip "Bootstrap 3.0") allowed for the best approach to a grid while allowinf for scalability. 
 
 It also has mixins that make working with media queries extremely powerful and simplitic. The combination of these come together beautifly to provide you with a truely responsive & fluid layout down to IE7
 
 ## APPROACH
 
 - [X] 1. Style Guide Creation (Colors/Fonts/Form Elements/Buttons/Look & Feel)
-- [ ] 2. Framework/Grid devlopment
+- [X] 2. Framework/Grid devlopment
 - [ ] 3. HTML/CSS prototyping of static area51 page by page.
 - [ ] 4. Break it up into template files
 - [ ] 5. Apply aesthtics
