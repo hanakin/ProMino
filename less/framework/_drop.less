@@ -1,0 +1,55 @@
+/* - Drop Down
+----------------------------------------------*/
+.drop {
+	> a {
+		.hide-text();
+	}
+	&:hover > ul,
+	&:focus > ul {
+		.block();
+		visibility: visible;
+		z-index: 99;
+		top: 35px;
+		right: @hspace*4;
+	}
+	> ul {
+		.no-bullets();
+		.border-radius(@baseBorderRadius);
+		.bg(@black);
+		padding: @vspace*3 0;
+		float: none;
+		display: none;
+		visibility: hidden;
+		position: absolute;
+		.hide-text();
+		margin: 0;
+		//width: 111px;
+		color: @greyDark;
+		> li {
+			.block();
+			//.bg(@black);
+			//&:first-child { 
+			//	.border-top-radius(5px);
+			//	padding-top: 5px; 
+			//}
+			//&:last-child { 
+			//	.border-bottom-radius(5px);
+			//	padding-bottom: 5px; 
+			//}
+			float: none;
+			&:hover,
+			&:focus {
+				.bg(@greyDark);
+				> a { color: @white; }
+			}
+			.block();
+			padding: 0 @hspace*3;
+			color: @greyDark;
+			a {
+				.block();
+				color: @greyDark;
+				width: 100%;
+			}
+		}
+	}
+}
