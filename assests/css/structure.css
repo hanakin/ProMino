@@ -15,6 +15,42 @@
   display: none !important;
   visibility: hidden !important;
 }
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.clearfix:after {
+  clear: both;
+}
+.pull-right {
+  float: right;
+}
+.sm-pull-right {
+  float: right;
+}
+.md-pull-right {
+  float: none;
+}
+.lg-pull-right {
+  float: none;
+}
+.pull-left {
+  float: left;
+}
+.sm-pull-left {
+  float: left;
+}
+.md-pull-left {
+  float: none;
+}
+.lg-pull-left {
+  float: none;
+}
 .visible-sm {
   display: block !important;
 }
@@ -136,6 +172,16 @@ td.hidden-lg {
   td.hidden-lg {
     display: table-cell !important;
   }
+  .sm-pull-left,
+  .sm-pull-right {
+    float: none;
+  }
+  .md-pull-right {
+    float: right;
+  }
+  .md-pull-left {
+    float: left;
+  }
 }
 @media (min-width: 992px) {
   .visible-sm {
@@ -198,6 +244,16 @@ td.hidden-lg {
   td.hidden-lg {
     display: none !important;
   }
+  .sm-pull-left,
+  .sm-pull-right {
+    float: none;
+  }
+  .lg-pull-right {
+    float: right;
+  }
+  .lg-pull-left {
+    float: left;
+  }
 }
 .visible-print {
   display: none !important;
@@ -230,24 +286,6 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
-}
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-
-  display: table;
-  /* 2 */
-
-}
-.clearfix:after {
-  clear: both;
-}
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
 }
 .hide {
   display: none !important;
@@ -642,12 +680,13 @@ td.visible-print {
   src: url('../fonts/glyphiconshalflings-regular.eot');
   src: url('../fonts/glyphiconshalflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphiconshalflings-regular.woff') format('woff'), url('../fonts/glyphiconshalflings-regular.ttf') format('truetype'), url('../fonts/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-.glyphicon:before {
+.glyphicon {
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+  font-size: 20px;
 }
 .glyphicon-glass:before {
   content: "\e001";
@@ -1223,6 +1262,105 @@ input[type="button"].btn-block {
   text-decoration: none;
   cursor: pointer;
   background-color: #808080;
+}
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+}
+.breadcrumb > li {
+  display: inline-block;
+}
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #999999;
+}
+.breadcrumb > .active {
+  color: #999999;
+}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #d44950;
+  border-radius: 10px;
+}
+.badge:empty {
+  display: none;
+}
+a.badge:hover,
+a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.breadcrumb .glyphicon {
+  font-size: 14px;
+}
+.breadcrumb {
+  background-color: #f2f2f2;
+}
+.breadcrumb > li + li:before {
+  content: "\276e";
+  padding: 0 12px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb {
+    background-color: #e6e6e6;
+  }
+}
+@media (min-width: 992px) {
+  .breadcrumb {
+    background-color: #e6e6e6;
+  }
+}
+.badge {
+  margin: -30px 0 0 -15px;
+}
+.header > hgroup {
+  padding: 9px 12px;
+  margin: 16px 0;
+}
+.header > hgroup .nav > ul {
+  margin-top: 8px;
+}
+.header-mobile {
+  padding: 14px 16px;
+}
+.header-logo {
+  margin-top: 6px;
+}
+.header-avatar img {
+  margin-right: 8px;
+  margin-top: -4px;
+}
+.forum > h2 {
+  margin-left: 24px;
+}
+.forum-row {
+  padding: 8px 12px;
+  margin: 8px 24px;
+}
+.forum-row hgroup {
+  margin-top: 6px;
+}
+.forum-row > h2,
+.forum-row .h5,
+.forum-row p {
+  margin: 0;
+}
+.forum-row dfn {
+  padding-top: 8px;
 }
 /* Theme Customization
    --------------------------------------------------------------------------*/

@@ -184,7 +184,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 input,
 button,
@@ -543,7 +543,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 .table-condensed thead > tr > th,
 .table-condensed tbody > tr > th,
@@ -987,4 +987,7 @@ select.input-small {
   .form-horizontal .control-label {
     text-align: right;
   }
+}
+.list-inline {
+  margin: 0;
 }

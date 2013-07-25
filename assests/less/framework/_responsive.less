@@ -29,6 +29,21 @@
 	visibility: hidden !important;
 }
 
+// Floats
+// -------------------------
+
+.clearfix { .clearfix(); }
+
+.pull-right { float: right; }
+.sm-pull-right { float: right; }
+.md-pull-right { float: none; }
+.lg-pull-right { float: none; }
+
+.pull-left { float: left; }
+.sm-pull-left { float: left; }
+.md-pull-left { float: none; }
+.lg-pull-left { float: none; }
+
 // Visibility utilities
 
 // For Phones
@@ -50,6 +65,12 @@
 	.hidden-sm { .responsive-visibility(); }
 	.hidden-md { .responsive-invisibility(); }
 	.hidden-lg { .responsive-visibility(); }
+	
+	.sm-pull-left, .sm-pull-right { float: none; }
+
+	.md-pull-right { float: right; }
+	.md-pull-left { float: left; }
+	
 }
 
 // For desktops
@@ -61,6 +82,12 @@
 	.hidden-sm { .responsive-visibility(); }
 	.hidden-md { .responsive-visibility(); }
 	.hidden-lg { .responsive-invisibility(); }
+
+	.sm-pull-left, .sm-pull-right { float: none; }
+	
+	.lg-pull-right { float: right; }
+	.lg-pull-left { float: left; }
+
 }
 
 // Print utilities
@@ -71,14 +98,6 @@
 	.visible-print { .responsive-visibility(); }
 	.hidden-print { .responsive-invisibility(); }
 }
-
-// Floats
-// -------------------------
-
-.clearfix { .clearfix(); }
-.pull-right { float: right; }
-.pull-left { float: left; }
-
 
 // Toggling content
 // -------------------------

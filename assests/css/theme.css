@@ -3,3 +3,47 @@
    Theme specific Content & alterations
    ==========================================================================
 */
+.header > hgroup {
+  background: #333333;
+  border-radius: 6px;
+}
+.header > hgroup a .glyphicon {
+  color: #666666;
+}
+.header > hgroup a:hover .glyphicon {
+  color: #ffffff;
+}
+.header-mobile {
+  background: #333333;
+}
+.header-mobile a .glyphicon {
+  color: #666666;
+}
+.header-mobile a:hover .glyphicon {
+  color: #ffffff;
+}
+.forum-name a {
+  color: #333333;
+}
+.forum-name a:hover {
+  color: #1482a4;
+}
+.forum-row {
+  background: #ffffff;
+}
+.forum-row:hover {
+  background: #e6e6e6;
+  cursor: pointer;
+}
+.forum-row:hover .forum-recent > a {
+  color: #333333;
+}
+.forum-sub {
+  border-left: 5px solid #b3b3b3;
+}
+.forum-recent > a {
+  color: #cccccc;
+}
+.forum-recent > a:hover {
+  color: #333333;
+}

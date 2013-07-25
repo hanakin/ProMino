@@ -1,3 +1,6 @@
+// Framework variables and mixins
+@import "framework/_variables.less";
+@import "framework/_mixins.less";
 
 /* 
    ==========================================================================
@@ -6,3 +9,36 @@
 */
 
 // It is highly recomended that you break up the theme into sub components or modules and use this file to include them
+
+.header > hgroup { 
+	background: @black;
+	a .glyphicon { color: @gray-darker;	}
+	a:hover .glyphicon { color: @white; }
+	border-radius: @border-radius-large;
+}
+.header-mobile { 
+	background: @black; 
+	a .glyphicon { color: @gray-darker;	}
+	a:hover .glyphicon { color: @white; }
+}
+
+.forum-name a { 
+	color: @black;
+	&:hover { color: darken(@link-color, 15%); }
+}
+
+.forum-row { 
+	background: @white; 
+	&:hover {
+		background: @white-dark;
+		cursor: pointer;
+	}
+
+	&:hover .forum-recent > a { color: @black; }
+}
+
+.forum-sub { border-left: @padding-small-vertical solid @gray-light; }
+.forum-recent > a { 
+	color: @gray-lighter;
+	&:hover { color: @black; }
+}

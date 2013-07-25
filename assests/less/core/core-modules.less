@@ -13,5 +13,34 @@
 @import "../framework/_glyphicon.less";
 @import "../framework/_buttons.less";
 @import "../framework/_labels.less";
+@import "../framework/_breadcrumb.less";
+@import "../framework/_badges.less";
 
 // Core Customization
+
+.breadcrumb .glyphicon { font-size: @font-size-base; }
+
+.breadcrumb {
+	background-color: @white-darker;
+	> li {
+		&+li:before {
+			content: "\276e"; // Unicode space added since inline-block means non-collapsing white-space
+			padding: 0 @padding-base-horizontal;
+		}
+	}
+}
+
+// Tablets & small desktops only
+@media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+	.breadcrumb {
+		background-color: @breadcrumb-bg;
+	}
+}
+
+@media (min-width: @screen-desktop) {
+	.breadcrumb {
+		background-color: @breadcrumb-bg;
+	}
+}
+
+.badge { margin: -30px 0 0 -15px; }
