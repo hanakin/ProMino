@@ -991,3 +991,25 @@ select.input-small {
 .list-inline {
   margin: 0;
 }
+.dl-inline dt {
+  clear: none;
+  width: auto;
+  margin: 0 12px;
+  font-size: 12px;
+}
+.dl-inline dd {
+  float: left;
+  margin: -3px 12px 0 0;
+}
+.dl-inline:before,
+.dl-inline:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.dl-inline:after {
+  clear: both;
+}
