@@ -8,5 +8,5 @@
 */
 
 @import url("../assests/css/global.css"); 		/* Base styles (Reset, Defaults) - DO NOT MAKE CHANGES TO THIS FILE */
-@import url("../assests/css/structure.css");	/* Default structure syles (grids, responsive uilities) */
+@import url("../assests/css/core.css");			/* Default structure syles (grids, responsive uilities) */
 @import url("../assests/css/theme.css");		/* All changes for individual themes */

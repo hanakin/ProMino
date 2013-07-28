@@ -4,8 +4,13 @@
    ==========================================================================
 */
 .header > hgroup {
+  padding: 9px 12px;
+  margin: 16px 0;
   background: #333333;
   border-radius: 6px;
+}
+.header > hgroup .nav > ul {
+  margin-top: 8px;
 }
 .header > hgroup a .glyphicon {
   color: #666666;
@@ -13,7 +18,16 @@
 .header > hgroup a:hover .glyphicon {
   color: #ffffff;
 }
+.header-logo {
+  margin-top: -2px;
+  top: 2px;
+}
+.header-avatar img {
+  margin-right: 8px;
+  margin-top: -4px;
+}
 .header-mobile {
+  padding: 14px 16px;
   background: #333333;
 }
 .header-mobile a .glyphicon {
@@ -22,21 +36,49 @@
 .header-mobile a:hover .glyphicon {
   color: #ffffff;
 }
-.forum-name a {
-  color: #333333;
+.header-logo-mobile {
+  position: relative;
+  float: left;
+  top: 8px;
+  margin-top: -15px;
 }
-.forum-name a:hover {
-  color: #1482a4;
+.forum-name {
+  padding: 8px 24px;
+  margin: 0;
+  background: #21b5e4;
+}
+.forum-name > a {
+  color: #ffffff;
+}
+.forum-name > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 .forum-row {
+  padding: 8px 24px;
   background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+.forum-row hgroup {
+  margin-top: 6px;
+}
+.forum-row > h2,
+.forum-row .h5,
+.forum-row p {
+  margin: 0;
+}
+.forum-row dfn {
+  padding-top: 8px;
 }
 .forum-row:hover {
-  background: #e6e6e6;
+  background: #f2f2f2;
   cursor: pointer;
 }
 .forum-row:hover .forum-recent > a {
   color: #333333;
+}
+.forum-row::last-child {
+  border-bottom: none;
 }
 .forum-sub {
   border-left: 5px solid #b3b3b3;
@@ -46,4 +88,38 @@
 }
 .forum-recent > a:hover {
   color: #333333;
+}
+.info-stats {
+  margin: 24px 0 24px 4%;
+}
+@media (min-width: 992px) {
+  .info-stats {
+    margin-left: 13%;
+  }
+}
+@media (min-width: 1200px) {
+  .info-stats {
+    margin-left: 22%;
+  }
+}
+.info-online .panel-heading {
+  font-size: 14px;
+}
+.info-online-legend .label {
+  font-size: 10px;
+}
+@media (min-width: 1200px) {
+  .info-online-legend .label {
+    font-size: 12px;
+  }
+}
+.info-online-stats {
+  margin: 0;
+}
+.info-online-stats dd {
+  margin-left: 162px;
+}
+.info-online-stats dd small {
+  padding-left: 12px;
+  color: #999999;
 }

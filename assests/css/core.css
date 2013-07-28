@@ -1431,48 +1431,6 @@ a.badge:focus {
 .label-user {
   background: #21b5e4;
 }
-.header > hgroup {
-  padding: 9px 12px;
-  margin: 16px 0;
-}
-.header > hgroup .nav > ul {
-  margin-top: 8px;
-}
-.header-logo {
-  margin-top: -2px;
-  top: 2px;
-}
-.header-avatar img {
-  margin-right: 8px;
-  margin-top: -4px;
-}
-.header-mobile {
-  padding: 14px 16px;
-}
-.header-logo-mobile {
-  position: relative;
-  float: left;
-  top: 8px;
-  margin-top: -15px;
-}
-.forum > h2 {
-  margin-left: 24px;
-}
-.forum-row {
-  padding: 8px 12px;
-  margin: 8px 24px;
-}
-.forum-row hgroup {
-  margin-top: 6px;
-}
-.forum-row > h2,
-.forum-row .h5,
-.forum-row p {
-  margin: 0;
-}
-.forum-row dfn {
-  padding-top: 8px;
-}
 .info-stats {
   margin: 24px 0 24px 4%;
 }
@@ -1510,5 +1468,3 @@ a.badge:focus {
 .footer {
   margin-bottom: 24px;
 }
-/* Theme Customization
-   --------------------------------------------------------------------------*/

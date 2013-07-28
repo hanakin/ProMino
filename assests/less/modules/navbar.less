@@ -1,0 +1,43 @@
+//
+// Navbar
+// --------------------------------------------------
+
+.header > hgroup { 
+	// Structure
+	padding: @padding-base-vertical+1 @padding-base-horizontal;
+	margin: @padding-base-vertical*2 0;
+	.nav > ul { margin-top: @padding-base-vertical; }
+	
+	// Look
+	background: @black;
+	a .glyphicon { color: @gray-darker;	}
+	a:hover .glyphicon { color: @white; }
+	border-radius: @border-radius-large;
+}
+
+.header-logo { 
+	margin-top: -2px;
+	top: 2px;
+}
+
+.header-avatar img { 
+	margin-right: @padding-base-vertical;
+	margin-top: -@padding-base-vertical/2; 
+}
+
+.header-mobile { 
+	// Structure
+	padding: @padding-large-vertical @padding-large-horizontal; 
+	
+	// Look
+	background: @black; 
+	a .glyphicon { color: @gray-darker;	}
+	a:hover .glyphicon { color: @white; }
+}
+
+.header-logo-mobile { 
+	position: relative;
+	float: left;
+	top: @padding-base-vertical;
+	margin-top: -15px;
+}
