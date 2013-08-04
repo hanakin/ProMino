@@ -7,13 +7,10 @@
   margin: -30px 0 0 -15px;
 }
 .header > hgroup {
-  padding: 9px 12px;
-  margin: 16px 0;
+  padding: 7px 12px;
+  margin: 12px 0;
   background: #333333;
   border-radius: 6px;
-}
-.header > hgroup .nav > ul {
-  margin-top: 8px;
 }
 .header > hgroup a .glyphicon {
   color: #666666;
@@ -21,32 +18,38 @@
 .header > hgroup a:hover .glyphicon {
   color: #ffffff;
 }
+.header-nav > ul {
+  margin-top: 7px;
+}
+.header-form {
+  margin-top: 2px;
+}
 .header-logo {
   margin-top: -2px;
   top: 2px;
 }
 .header-avatar img {
-  margin-right: 8px;
-  margin-top: -4px;
+  margin-right: 6px;
+  margin-top: -3px;
 }
-.header-mobile {
-  padding: 14px 16px;
+.header-mobile-nav {
+  padding: 14px 16px 10px;
   background: #333333;
 }
-.header-mobile a .glyphicon {
+.header-mobile-nav a .glyphicon {
   color: #666666;
 }
-.header-mobile a:hover .glyphicon {
+.header-mobile-nav a:hover .glyphicon {
   color: #ffffff;
 }
 .header-logo-mobile {
   position: relative;
   float: left;
-  top: 8px;
+  top: 6px;
   margin-top: -15px;
 }
 .forum-name {
-  padding: 8px 24px;
+  padding: 6px 24px;
   margin: 0;
   background: #21b5e4;
 }
@@ -80,7 +83,7 @@
   text-transform: uppercase;
 }
 .forum-row {
-  padding: 8px;
+  padding: 6px;
   background: #ffffff;
   border-bottom: 1px solid #cccccc;
 }
@@ -93,11 +96,14 @@
   margin: 0;
 }
 .forum-row dfn {
-  padding-top: 8px;
+  padding-top: 6px;
 }
 .forum-row:hover {
-  background: #f2f2f2;
+  background: #e6e6e6;
   cursor: pointer;
+}
+.forum-row:hover .label {
+  color: #e6e6e6;
 }
 .forum-row:hover .forum-recent > a {
   color: #333333;
@@ -107,7 +113,7 @@
 }
 .forum-sub {
   border-left: 5px solid #b3b3b3;
-  padding-left: 3px;
+  padding-left: 1px;
 }
 .forum-recent > a {
   color: #cccccc;
@@ -136,8 +142,7 @@
 }
 .mine {
   display: inline;
-  margin-top: 2px;
-  padding: 4px;
+  padding: 3px 4px;
   font-size: 3px;
   color: #4f9fd0;
   background: #4f9fd0;
@@ -177,7 +182,7 @@
   color: #999999;
 }
 .footer {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   font-size: 12px;
 }
 @media (min-width: 768px) {

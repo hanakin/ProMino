@@ -42,8 +42,9 @@
 	// Look
 	background: @white; 
 	&:hover {
-		background: @white-darker;
+		background: @white-dark;
 		cursor: pointer;
+		.label { color: @white-dark; }
 	}
 
 	&:hover .forum-recent > a { color: @black; }
@@ -85,8 +86,7 @@
 .locked { display: inline; }
 .mine { 
 	display: inline;
-	margin-top: 2px;
-	padding: 4px;
+	padding: 3px 4px;
 	font-size: 3px;
 	color: @blue;
 	background: @blue;

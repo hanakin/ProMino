@@ -38,11 +38,11 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
-@brand-success:         #5cb85c;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
-@brand-info:            #5bc0de;
+@brand-primary:					#428bca;
+@brand-success:					#5cb85c;
+@brand-warning:					#f0ad4e;
+@brand-danger:					#d9534f;
+@brand-info:					#5bc0de;
 
 // Scaffolding
 // -------------------------
@@ -75,18 +75,29 @@
 // Components
 // -------------------------
 // Based on 14px font-size and 1.428 line-height (~20px to start)
-@padding-base-vertical:			8px;
+@padding-base-vertical:			6px;
 @padding-base-horizontal:		12px;
 
-@padding-large-vertical:		14px;
+@padding-large-vertical:		10px;
 @padding-large-horizontal:		16px;
 
 @padding-small-vertical:		5px;
 @padding-small-horizontal:		10px;
 
+@line-height-large:				1.33;
+@line-height-small:				1.5;
+
 @border-radius-base:			4px;
 @border-radius-large:			6px;
 @border-radius-small:			3px;
+
+// Code
+// ------------------------
+@code-color:					#c7254e;
+@code-bg:						#f9f2f4;
+
+@pre-bg:						@white-darker;
+@pre-border-color:				@gray-lighter;
 
 // Tables
 // -------------------------
@@ -95,7 +106,7 @@
 
 @table-bg:						transparent; // overall background-color
 @table-bg-accent:				#f9f9f9; // for striping
-@table-bg-hover:				#f5f5f5;
+@table-bg-hover:				@white-darker;
 @table-bg-active:				@table-bg-hover;
 
 @table-border-color:			#ddd; // table and cell border
@@ -114,81 +125,85 @@
 @input-height-large:			(ceil(@font-size-large * @line-height-base) + (@padding-large-vertical * 2) + 2);
 @input-height-small:			(ceil(@font-size-small * @line-height-base) + (@padding-small-vertical * 2) + 2);
 
+@legend-border-color:            @white-dark;
+
 // Form states and alerts
 // -------------------------
 
-@state-warning-text:             #c09853;
-@state-warning-bg:               #fcf8e3;
-@state-warning-border:           darken(spin(@state-warning-bg, -10), 3%);
+@state-warning-text:			#c09853;
+@state-warning-bg:				#fcf8e3;
+@state-warning-border:			darken(spin(@state-warning-bg, -10), 3%);
 
-@state-danger-text:              #b94a48;
-@state-danger-bg:                #f2dede;
-@state-danger-border:            darken(spin(@state-danger-bg, -10), 3%);
+@state-danger-text:				#b94a48;
+@state-danger-bg:				#f2dede;
+@state-danger-border:			darken(spin(@state-danger-bg, -10), 3%);
 
-@state-success-text:             #468847;
-@state-success-bg:               #dff0d8;
-@state-success-border:           darken(spin(@state-success-bg, -10), 5%);
+@state-success-text:			#468847;
+@state-success-bg:				#dff0d8;
+@state-success-border:			darken(spin(@state-success-bg, -10), 5%);
 
-@state-info-text:                #3a87ad;
-@state-info-bg:                  #d9edf7;
-@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+@state-info-text:				#3a87ad;
+@state-info-bg:					#d9edf7;
+@state-info-border:				darken(spin(@state-info-bg, -10), 7%);
 
 // Buttons
 @btn-default-color:				@white;
 @btn-default-bg:				#474949;
 @btn-default-border:			@btn-default-bg;
 
+@btn-hover-color:				@btn-default-color;
+
 // Breadcrumbs
 // -------------------------
-@breadcrumb-bg:               @white-dark;
-@breadcrumb-color:            @gray;
-@breadcrumb-active-color:     @gray;
+@breadcrumb-bg:					@white-dark;
+@breadcrumb-color:				@gray;
+@breadcrumb-active-color:		@gray;
 
 // Badges
 // -------------------------
-@badge-color:                 #fff;
-@badge-link-hover-color:      #fff;
+@badge-color:					#fff;
+@badge-link-hover-color:		#fff;
 
-@badge-bg:                    @red;
-@badge-active-color:          @link-color;
-@badge-active-bg:             #fff;
+@badge-bg:						@red;
+@badge-active-color:			@link-color;
+@badge-active-bg:				#fff;
 
 // Panels
 // -------------------------
-@panel-bg:                    #fff;
-@panel-border:                #ddd;
-@panel-border-radius:         @border-radius-base;
-@panel-heading-bg:            #f5f5f5;
-@panel-footer-bg:             #f5f5f5;
+@panel-bg:						#fff;
+@panel-border:					#ddd;
+@panel-border-radius:			@border-radius-base;
+@panel-heading-bg:				#f5f5f5;
+@panel-footer-bg:				#f5f5f5;
 
-@panel-primary-text:          #fff;
-@panel-primary-border:        @brand-primary;
-@panel-primary-heading-bg:    @brand-primary;
+@panel-primary-text:			#fff;
+@panel-primary-border:			@brand-primary;
+@panel-primary-heading-bg:		@brand-primary;
 
-@panel-success-text:          @state-success-text;
-@panel-success-border:        @state-success-border;
-@panel-success-heading-bg:    @state-success-bg;
+@panel-success-text:			@state-success-text;
+@panel-success-border:			@state-success-border;
+@panel-success-heading-bg:		@state-success-bg;
 
-@panel-warning-text:          @state-warning-text;
-@panel-warning-border:        @state-warning-border;
-@panel-warning-heading-bg:    @state-warning-bg;
+@panel-warning-text:			@state-warning-text;
+@panel-warning-border:			@state-warning-border;
+@panel-warning-heading-bg:		@state-warning-bg;
 
-@panel-danger-text:           @state-danger-text;
-@panel-danger-border:         @state-danger-border;
-@panel-danger-heading-bg:     @state-danger-bg;
+@panel-danger-text:				@state-danger-text;
+@panel-danger-border:			@state-danger-border;
+@panel-danger-heading-bg:		@state-danger-bg;
 
-@panel-info-text:             @state-info-text;
-@panel-info-border:           @state-info-border;
-@panel-info-heading-bg:       @state-info-bg;
+@panel-info-text:				@state-info-text;
+@panel-info-border:				@state-info-border;
+@panel-info-heading-bg:			@state-info-bg;
 
 // Miscellaneous
 // -------------------------
 
 // Hr border color
-@hr-border:                   @gray-light;
+@hr-border:						@gray-light;
 
 // Horizontal forms & lists
-@component-offset-horizontal: 180px;
+@component-offset-horizontal:	180px;
 
 // Media queries breakpoints
 // --------------------------------------------------

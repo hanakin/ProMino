@@ -20,21 +20,19 @@
 	border: 1px solid transparent;
 	border-radius: @border-radius-base;
 	white-space: nowrap;
+	.user-select(none);
 
-	&:focus {
-		.tab-focus();
-	}
+	&:focus { .tab-focus();	}
 
 	&:hover,
 	&:focus {
-		color: #fff;
+		color: @btn-hover-color;
 		text-decoration: none;
 	}
 
 	&:active,
 	&.active {
 		outline: 0;
-		background-image: none;
 		.box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
 	}
 
@@ -54,7 +52,5 @@
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	&.btn-block {
-		width: 100%;
-	}
+	&.btn-block { width: 100%; }
 }

@@ -83,7 +83,11 @@
 									<span class="forum-icon glyphicon glyphicon-minus pull-left"></span>
 									<h2 class="forum-title h5 md-pull-left lg-pull-left">
 										<a class="pull-left" href="">[3.1/Ascraeus] Merged RFCs</a> 
-										<p class="forum-labels md-pull-left lg-pull-left">
+										<p class="forum-labels md-pull-left lg-pull-left visible-sm">
+											<span class="forum-label badge mine">0</span>
+											<span class="forum-label label locked unread">Locked</span>
+										</p>
+										<p class="forum-labels md-pull-left lg-pull-left hidden-sm">
 											<span class="forum-label badge mine">0</span>
 											<span class="forum-label label locked">Locked</span>
 											<span class="forum-label label unread">New</span>
