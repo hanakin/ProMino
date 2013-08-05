@@ -3,6 +3,9 @@
    Theme specific Content & alterations
    ==========================================================================
 */
+/*
+ * Navbar
+ * --------------------------------------------------*/
 .header .badge {
   margin: -30px 0 0 -15px;
 }
@@ -48,6 +51,9 @@
   top: 6px;
   margin-top: -15px;
 }
+/*
+ * Forumlist
+ * --------------------------------------------------*/
 .forum-name {
   padding: 6px 24px;
   margin: 0;
@@ -63,11 +69,7 @@
 .forum-title:before,
 .forum-title:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .forum-title:after {
   clear: both;
@@ -147,6 +149,9 @@
   color: #4f9fd0;
   background: #4f9fd0;
 }
+/*
+ * Info panel
+ * --------------------------------------------------*/
 .info-stats {
   margin: 24px 0 24px 4%;
 }
@@ -181,6 +186,9 @@
   padding-left: 12px;
   color: #999999;
 }
+/*
+ * Copyright
+ * --------------------------------------------------*/
 .footer {
   margin-bottom: 18px;
   font-size: 12px;
@@ -189,4 +197,52 @@
   .footer {
     font-size: 14px;
   }
+}
+.label-admint {
+  background: #BC2A4D;
+}
+a:hover .label-admint {
+  background: #92213c;
+}
+.label-dev {
+  background: #009900;
+}
+a:hover .label-dev {
+  background: #006600;
+}
+.label-modt {
+  background: #660099;
+}
+a:hover .label-modt {
+  background: #440066;
+}
+.label-mod {
+  background: #0000CC;
+}
+a:hover .label-mod {
+  background: #000099;
+}
+.label-stylet {
+  background: #CC33CC;
+}
+a:hover .label-stylet {
+  background: #a329a3;
+}
+.label-supt {
+  background: #CC6600;
+}
+a:hover .label-supt {
+  background: #994d00;
+}
+.label-webt {
+  background: #0099CC;
+}
+a:hover .label-webt {
+  background: #007399;
+}
+.label-user {
+  background: #21b5e4;
+}
+a:hover .label-user {
+  background: #1794bb;
 }

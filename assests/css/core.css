@@ -18,11 +18,7 @@
 .clearfix:before,
 .clearfix:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .clearfix:after {
   clear: both;
@@ -310,11 +306,7 @@ td.visible-print {
 .container:before,
 .container:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -322,11 +314,7 @@ td.visible-print {
 .container:before,
 .container:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -334,11 +322,7 @@ td.visible-print {
 .row:before,
 .row:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -346,11 +330,7 @@ td.visible-print {
 .row:before,
 .row:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -1503,52 +1483,4 @@ a.badge:focus {
   font-size: 80%;
   vertical-align: middle;
   border-radius: .35em;
-}
-.label-admint {
-  background: #BC2A4D;
-}
-a:hover .label-admint {
-  background: #92213c;
-}
-.label-dev {
-  background: #009900;
-}
-a:hover .label-dev {
-  background: #006600;
-}
-.label-modt {
-  background: #660099;
-}
-a:hover .label-modt {
-  background: #440066;
-}
-.label-mod {
-  background: #0000CC;
-}
-a:hover .label-mod {
-  background: #000099;
-}
-.label-stylet {
-  background: #CC33CC;
-}
-a:hover .label-stylet {
-  background: #a329a3;
-}
-.label-supt {
-  background: #CC6600;
-}
-a:hover .label-supt {
-  background: #994d00;
-}
-.label-webt {
-  background: #0099CC;
-}
-a:hover .label-webt {
-  background: #007399;
-}
-.label-user {
-  background: #21b5e4;
-}
-a:hover .label-user {
-  background: #1794bb;
 }
