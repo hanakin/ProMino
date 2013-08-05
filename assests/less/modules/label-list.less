@@ -1,0 +1,46 @@
+//
+// Label List
+// --------------------------------------------------
+
+.label-list {
+	display: inline-block;
+	padding-left: 0;
+	list-style: none;
+	> li {
+		display: inline-block;
+		
+		// Add hover effects, but only for links
+		a, span {
+			margin: 0 0 0 -3px;
+			padding: .25em .5em .5em;
+			font-size: 75%;
+			font-weight: 500;
+			line-height: 1;
+			color: #fff;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: baseline;
+			background-color: @gray;
+		}
+
+		a {
+			background-color: @link-color;
+			&:hover,
+			&:focus { background-color: @link-hover-color; }
+		}
+	}
+	.label-list-left {
+		a, span {
+			margin: 0;
+			border-top-left-radius: .25em;
+			border-bottom-left-radius: .25em;
+		}
+	}
+
+	.label-list-right {
+		a, span {
+			border-top-right-radius: .25em;
+			border-bottom-right-radius: .25em;
+		}
+	}
+}

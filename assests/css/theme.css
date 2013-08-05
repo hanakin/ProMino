@@ -3,6 +3,45 @@
    Theme specific Content & alterations
    ==========================================================================
 */
+.label-list {
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+}
+.label-list > li {
+  display: inline-block;
+}
+.label-list > li a,
+.label-list > li span {
+  margin: 0 0 0 -3px;
+  padding: .25em .5em .5em;
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999999;
+}
+.label-list > li a {
+  background-color: #21b5e4;
+}
+.label-list > li a:hover,
+.label-list > li a:focus {
+  background-color: #1482a4;
+}
+.label-list .label-list-left a,
+.label-list .label-list-left span {
+  margin: 0;
+  border-top-left-radius: .25em;
+  border-bottom-left-radius: .25em;
+}
+.label-list .label-list-right a,
+.label-list .label-list-right span {
+  border-top-right-radius: .25em;
+  border-bottom-right-radius: .25em;
+}
 /*
  * Navbar
  * --------------------------------------------------*/
@@ -114,7 +153,7 @@
   border-bottom: none;
 }
 .forum-sub {
-  border-left: 5px solid #b3b3b3;
+  border-left: 5px solid #333333;
   padding-left: 1px;
 }
 .forum-recent > a {
@@ -198,51 +237,111 @@
     font-size: 14px;
   }
 }
-.label-admint {
+.label.admint {
   background: #BC2A4D;
 }
-a:hover .label-admint {
+a.admint {
+  color: #BC2A4D;
+}
+a.admint :hover {
+  color: #92213c;
+}
+a:hover .label.admint {
   background: #92213c;
 }
-.label-dev {
+.label.dev {
   background: #009900;
 }
-a:hover .label-dev {
+a.dev {
+  color: #009900;
+}
+a.dev :hover {
+  color: #006600;
+}
+a:hover .label.dev {
   background: #006600;
 }
-.label-modt {
+.label.modt {
   background: #660099;
 }
-a:hover .label-modt {
+a.modt {
+  color: #660099;
+}
+a.modt:hover {
+  color: #440066;
+}
+a:hover .label.modt {
   background: #440066;
 }
-.label-mod {
+.label.mod {
   background: #0000CC;
 }
-a:hover .label-mod {
+a.mod {
+  color: #0000CC;
+}
+a.mod :hover {
+  color: #000099;
+}
+a:hover .label.mod {
   background: #000099;
 }
-.label-stylet {
+.label.stylet {
   background: #CC33CC;
 }
-a:hover .label-stylet {
+a.stylet {
+  color: #CC33CC;
+}
+a.stylet:hover {
+  color: #a329a3;
+}
+a:hover .label.stylet {
   background: #a329a3;
 }
-.label-supt {
+.label.supt {
   background: #CC6600;
 }
-a:hover .label-supt {
+a.supt {
+  color: #CC6600;
+}
+a.supt:hover {
+  color: #994d00;
+}
+a:hover .label.supt {
   background: #994d00;
 }
-.label-webt {
+.label.webt {
   background: #0099CC;
 }
-a:hover .label-webt {
+a.webt {
+  color: #0099CC;
+}
+a.webt:hover {
+  color: #007399;
+}
+a:hover .label.webt {
   background: #007399;
 }
-.label-user {
+.label.bot {
+  background: #cccccc;
+}
+a.bot {
+  color: #cccccc;
+}
+a.bot:hover {
+  color: #b3b3b3;
+}
+a:hover .label.bot {
+  background: #b3b3b3;
+}
+.label.user {
   background: #21b5e4;
 }
-a:hover .label-user {
+a.user {
+  color: #21b5e4;
+}
+a.user:hover {
+  color: #1794bb;
+}
+a:hover .label.user {
   background: #1794bb;
 }

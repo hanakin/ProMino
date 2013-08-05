@@ -1480,6 +1480,7 @@ a.badge:focus {
   }
 }
 .label {
+  display: inline-block;
   font-size: 80%;
   vertical-align: middle;
   border-radius: .35em;

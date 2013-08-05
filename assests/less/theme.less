@@ -8,32 +8,55 @@
    ==========================================================================
 */
 
+@import "modules/label-list.less";
+
 // It is highly recomended that you break up the theme into sub components or modules and use this file to include them
 @import "modules/navbar.less";
 @import "modules/forumlist.less";
 @import "modules/info.less";
 @import "modules/copyright.less";
 
-.label-admint 			{ background: #BC2A4D; }
-a:hover .label-admint 	{ background: darken(#BC2A4D, 10%); }
+.label.admint 			{ background: #BC2A4D; }
+a.admint 				{ color: #BC2A4D; }
+a.admint :hover			{ color: darken(#BC2A4D, 10%); }
+a:hover .label.admint 	{ background: darken(#BC2A4D, 10%); }
 
-.label-dev 				{ background: #009900; }
-a:hover .label-dev 		{ background: darken(#009900, 10%); }
+.label.dev 				{ background: #009900; }
+a.dev 					{ color: #009900; }
+a.dev :hover			{ color: darken(#009900, 10%); }
+a:hover .label.dev 		{ background: darken(#009900, 10%); }
 
-.label-modt 			{ background: #660099; }
-a:hover .label-modt 	{ background: darken(#660099, 10%); }
+.label.modt 			{ background: #660099; }
+a.modt 					{ color: #660099; }
+a.modt:hover			{ color: darken(#660099, 10%); }
+a:hover .label.modt 	{ background: darken(#660099, 10%); }
 
-.label-mod 				{ background: #0000CC; }
-a:hover .label-mod 		{ background: darken(#0000CC, 10%); }
+.label.mod 				{ background: #0000CC; }
+a.mod  					{ color: #0000CC; }
+a.mod :hover			{ color: darken(#0000CC, 10%); }
+a:hover .label.mod 		{ background: darken(#0000CC, 10%); }
 
-.label-stylet 			{ background: #CC33CC; }
-a:hover .label-stylet 	{ background: darken(#CC33CC, 10%); }
+.label.stylet 			{ background: #CC33CC; }
+a.stylet 				{ color: #CC33CC; }
+a.stylet:hover			{ color: darken(#CC33CC, 10%); }
+a:hover .label.stylet 	{ background: darken(#CC33CC, 10%); }
 
-.label-supt 			{ background: #CC6600; }
-a:hover .label-supt 	{ background: darken(#CC6600, 10%); }
+.label.supt 			{ background: #CC6600; }
+a.supt 					{ color: #CC6600; }
+a.supt:hover			{ color: darken(#CC6600, 10%); }
+a:hover .label.supt 	{ background: darken(#CC6600, 10%); }
 
-.label-webt 			{ background: #0099CC; }
-a:hover .label-webt 	{ background: darken(#0099CC, 10%); }
+.label.webt 			{ background: #0099CC; }
+a.webt 					{ color: #0099CC; }
+a.webt:hover			{ color: darken(#0099CC, 10%); }
+a:hover .label.webt 	{ background: darken(#0099CC, 10%); }
 
-.label-user 			{ background: @primary-color; }
-a:hover .label-user 	{ background: darken(@primary-color, 10%); }
+.label.bot 				{ background: @gray-lighter; }
+a.bot 					{ color: @gray-lighter; }
+a.bot:hover				{ color: darken(@gray-lighter, 10%); }
+a:hover .label.bot 		{ background: darken(@gray-lighter, 10%); }
+
+.label.user 			{ background: @primary-color; }
+a.user					{ color: @primary-color; }
+a.user:hover			{ color: darken(@primary-color, 10%); }
+a:hover .label.user 	{ background: darken(@primary-color, 10%); }

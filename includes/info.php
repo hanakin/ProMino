@@ -10,22 +10,30 @@
 					<dd><span class="label">19245</span></dd>
 
 					<dt>Newest Member</dt>
-					<dd><a href="" title="USER: kalasweet"><span class="label label-user">kalasweet</span></a></dd>
+					<dd><a href="" title="USER: kalasweet"><span class="label user">kalasweet</span></a></dd>
 				</dl>
 				<article class="info-online panel hidden-sm">
   					<div class="info-online-legend panel-heading">
-  						<a href="" title="Administrators"><span class="label label-admint">Administrators</span></a> 
-		  				<a href="" title="Developers"><span class="label label-dev">Developers</span></a>
-		  				<a href="" title="Moderators"><span class="label label-modt">Moderators</span></a> 
-		  				<a href="" title="Styles Team"><span class="label label-stylet">Styles Team</span></a> 
-		  				<a href="" title="Support Team"><span class="label label-supt">Support Team</span></a> 
-		  				<a href="" title="Website Team"><span class="label label-webt">Website Team</span></a>
-		  				<a href="" title="Registered User"><span class="label label-user">Registered User</span></a>
+  						<a href="" title="Administrators"><span class="label admint">Administrators</span></a> 
+		  				<a href="" title="Developers"><span class="label dev">Developers</span></a>
+		  				<a href="" title="Moderators"><span class="label modt">Moderators</span></a> 
+		  				<a href="" title="Styles Team"><span class="label stylet">Styles Team</span></a> 
+		  				<a href="" title="Support Team"><span class="label supt">Support Team</span></a> 
+		  				<a href="" title="Website Team"><span class="label webt">Website Team</span></a>
+		  				<a href="" title="Registered User"><span class="label user">Registered User</span></a>
   						
   					</div>
   					<dl class="info-online-list dl-horizontal">
 						<dt>Users Online: </dt>
-						<dd class="label-name bot"><a href="" title="">Bing [Bot]</a>, <a href="" title="">Exabot [Bot]</a>, <a href="" title="">Google [Bot]</a>, <a href="" title="">Google Feedfetcher</a>, <a href="" title="">hanakin</a>, <a href="" title="">Majestic-12 [Bot]</a>, <a href="" title="">Noxwizard</a>, <a href="" title="">Yahoo Slurp</a></dd>
+						<dd class="label-name bot">
+							<a href="" title="" class="bot">Bing [Bot]</a>, 
+							<a href="" title="" class="bot">Exabot [Bot]</a>, 
+							<a href="" title="" class="bot">Google [Bot]</a>, 
+							<a href="" title="" class="bot">Google Feedfetcher</a>, 
+							<a href="" title="" class="user">hanakin</a>, 
+							<a href="" title="" class="bot">Majestic-12 [Bot]</a>, 
+							<a href="" title="" class="supt">Noxwizard</a>, 
+							<a href="" title="" class="bot">Yahoo Slurp</a></dd>
 					</dl>
 					<div class="panel-footer">
 						<dl class="info-online-stats dl-horizontal">
@@ -38,8 +46,57 @@
 					<dl class="label-list dl-horizontal">
 						<dt>Birthday Congrates to: </dt>
 						<dd class="label-group-name">
-							<a href="" title="">Psyao</a>, <a href="" title="">ErzengelAzrael <span class="label">48</span></a>, <a href="" title="">PartizanE <span class="label">43</span></a>, <a href="" title="">MirabellAC <span class="label">38</span></a>, <a href="" title="">sawo1955 <span class="label">35</span></a>, <a href="" title="">EkspertRu <span class="label">29</span></a>, <a href="" title="">Pyramide <span class="label">28</span></a>, <a href="" title="">Tar-Minyatur <span class="label">28</span></a>, <a href="" title="">danieldevil <span class="label">24</span></a>, <a href="" title="">Bruno_me <span class="label">24</span></a>, <a href="" title="">flo87 <span class="label">23</span></a>, <a href="" title="">NittoHelp <span class="label">23</span></a>, <a href="" title="">_LB <span class="label">18</span></a>
+							<a href="" title="USER: Psyao"><span class="label user">Psyao</span></a>,
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">ErzengelAzrael</a></li>
+								<li class="label-list-right"><span>48</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">PartizanE</a></li>
+								<li class="label-list-right"><span>43</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">MirabellAC</a></li>
+								<li class="label-list-right"><span>38</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">sawo1955</a></li>
+								<li class="label-list-right"><span>35</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">EkspertRu</a></li>
+								<li class="label-list-right"><span>29</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">Pyramide</a></li>
+								<li class="label-list-right"><span>28</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">Tar-Minyatur</a></li>
+								<li class="label-list-right"><span>28</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">danieldevil</a></li>
+								<li class="label-list-right"><span>24</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">Bruno_me</a></li>
+								<li class="label-list-right"><span>24</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">flo87</a></li>
+								<li class="label-list-right"><span>23</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">NittoHelp</a></li>
+								<li class="label-list-right"><span>23</span></li>
+							</ul>, 
+							<ul class="label-list">
+								<li class="label-list-left"><a href="" title="">_LB</a></li>
+								<li class="label-list-right"><span>18</span></li>
+							</ul>
 						</dd>
 					</dl>
 				</article>
 			</section>
+
