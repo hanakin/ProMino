@@ -14,10 +14,10 @@
 				</nav>
 				<hgroup class="row hidden-sm">
 					<a class="header-logo col-lg-2 col-sm-3" href="#"><img src="img/logo.png" height="40px" alt="PHPBB" /></a>
-					<form action="" class="header-form form hidden-sm col-lg-2 col-sm-3">
-							<input type="text" class="search" />
+					<form action="" class="header-form form hidden-sm col-lg-3 col-sm-3">
+							<input type="text" class="search form-control input-sm" />
 					</form>
-					<nav class="header-nav col-lg-8 col-sm-6">
+					<nav class="header-nav col-lg-7 col-sm-6">
 						<ul class="list-inline row">
 							<li class="pull-left">
 								<ul class="list-inline">
