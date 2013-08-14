@@ -16,47 +16,83 @@
 @import "modules/info.less";
 @import "modules/copyright.less";
 
-.label.admint 			{ background: #BC2A4D; }
-a.admint 				{ color: #BC2A4D; }
-a.admint :hover			{ color: darken(#BC2A4D, 10%); }
-a:hover .label.admint 	{ background: darken(#BC2A4D, 10%); }
+a.admint 						{ color: #BC2A4D; }
+a.admint:hover					{ color: darken(#BC2A4D, 10%); }
+a:hover .label.admint,
+.label-list-left a.admint:hover	{ background: darken(#BC2A4D, 10%); }
+.label.admint,
+.label-list-left a.admint		{ background: #BC2A4D; }
 
-.label.dev 				{ background: #009900; }
-a.dev 					{ color: #009900; }
-a.dev :hover			{ color: darken(#009900, 10%); }
-a:hover .label.dev 		{ background: darken(#009900, 10%); }
 
-.label.modt 			{ background: #660099; }
-a.modt 					{ color: #660099; }
-a.modt:hover			{ color: darken(#660099, 10%); }
-a:hover .label.modt 	{ background: darken(#660099, 10%); }
+a.dev 							{ color: #009900; }
+a.dev:hover						{ color: darken(#009900, 10%); }
+a:hover .label.dev,
+.label-list-left a.dev:hover	{ background: darken(#009900, 10%); }
+.label.dev,
+.label-list-left a.dev			{ background: #009900; }
 
-.label.mod 				{ background: #0000CC; }
-a.mod  					{ color: #0000CC; }
-a.mod :hover			{ color: darken(#0000CC, 10%); }
-a:hover .label.mod 		{ background: darken(#0000CC, 10%); }
 
-.label.stylet 			{ background: #CC33CC; }
-a.stylet 				{ color: #CC33CC; }
-a.stylet:hover			{ color: darken(#CC33CC, 10%); }
-a:hover .label.stylet 	{ background: darken(#CC33CC, 10%); }
+a.modt 							{ color: #660099; }
+a.modt:hover					{ color: darken(#660099, 10%); }
+a:hover .label.modt,
+.label-list-left a.modt:hover	{ background: darken(#660099, 10%); }
+.label.modt,
+.label-list-left a.modt			{ background: #660099; }
 
-.label.supt 			{ background: #CC6600; }
-a.supt 					{ color: #CC6600; }
-a.supt:hover			{ color: darken(#CC6600, 10%); }
-a:hover .label.supt 	{ background: darken(#CC6600, 10%); }
 
-.label.webt 			{ background: #0099CC; }
-a.webt 					{ color: #0099CC; }
-a.webt:hover			{ color: darken(#0099CC, 10%); }
-a:hover .label.webt 	{ background: darken(#0099CC, 10%); }
+a.mod  							{ color: #0000CC; }
+a.mod:hover						{ color: darken(#0000CC, 10%); }
+a:hover .label.mod,
+.label-list-left a.mod:hover	{ background: darken(#0000CC, 10%); }
+.label.mod,
+.label-list-left a.mod			{ background: #0000CC; }
 
-.label.bot 				{ background: @gray-lighter; }
-a.bot 					{ color: @gray-lighter; }
-a.bot:hover				{ color: darken(@gray-lighter, 10%); }
-a:hover .label.bot 		{ background: darken(@gray-lighter, 10%); }
 
-.label.user 			{ background: @primary-color; }
-a.user					{ color: @primary-color; }
-a.user:hover			{ color: darken(@primary-color, 10%); }
-a:hover .label.user 	{ background: darken(@primary-color, 10%); }
+a.stylet 						{ color: #CC33CC; }
+a.stylet:hover					{ color: darken(#CC33CC, 10%); }
+a:hover .label.stylet,
+.label-list-left a.stylet:hover	{ background: darken(#CC33CC, 10%); }
+.label.stylet,
+.label-list-left a.stylet		{ background: #CC33CC; }
+
+
+a.supt 							{ color: #CC6600; }
+a.supt:hover					{ color: darken(#CC6600, 10%); }
+a:hover .label.supt,
+.label-list-left a.supt:hover	{ background: darken(#CC6600, 10%); }
+.label.supt,
+.label-list-left a.supt			{ background: #CC6600; }
+
+
+a.webt 							{ color: #0099CC; }
+a.webt:hover					{ color: darken(#0099CC, 10%); }
+a:hover .label.webt,
+.label-list-left a.webt:hover	{ background: darken(#0099CC, 10%); }
+.label.webt,
+.label-list-left a.webt			{ background: #0099CC; }
+
+
+a.bot 							{ color: @gray-lighter; }
+a.bot:hover						{ color: darken(@gray-lighter, 10%); }
+a:hover .label.bot,
+.label-list-left a.bot:hover	{ background: darken(@gray-lighter, 10%); }
+.label.bot,
+.label-list-left a.bot			{ background: @gray-lighter; }
+
+
+a.user							{ color: @primary-color; }
+a.user:hover					{ color: darken(@primary-color, 10%); }
+a:hover .label.user,
+.label-list-left a.user:hover	{ background: darken(@primary-color, 10%); }
+.label.user,
+.label-list-left a.user			{ background: @primary-color; }
+
+.label-list-left a.admint:hover,
+.label-list-left a.dev:hover,
+.label-list-left a.modt:hover,
+.label-list-left a.mod:hover,
+.label-list-left a.stylet:hover,
+.label-list-left a.supt:hover,
+.label-list-left a.webt:hover,
+.label-list-left a.user:hover	{ color: @white; }
+
