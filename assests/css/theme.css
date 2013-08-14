@@ -13,8 +13,8 @@
 }
 .label-list > li a,
 .label-list > li span {
-  margin: 0 0 0 -3px;
-  padding: .3em .6em;
+  margin: 0 0 0 -2px;
+  padding: .2em .6em;
   font-size: .8em;
   font-weight: 500;
   color: #fff;
@@ -29,12 +29,14 @@
 }
 .label-list .label-list-left a,
 .label-list .label-list-left span {
+  display: inline-block;
   margin: 0;
   border-top-left-radius: .3em;
   border-bottom-left-radius: .3em;
 }
 .label-list .label-list-right a,
 .label-list .label-list-right span {
+  display: inline-block;
   border-top-right-radius: .3em;
   border-bottom-right-radius: .3em;
 }
@@ -54,7 +56,7 @@
   border-radius: 6px;
 }
 .header > hgroup a .glyphicon {
-  color: #666666;
+  color: #999999;
 }
 .header > hgroup a:hover .glyphicon {
   color: #ffffff;
@@ -66,7 +68,8 @@
   margin-top: 4px;
 }
 .header-logo {
-  margin-top: -2px;
+  margin-top: -8px;
+  margin-bottom: 0;
   top: 2px;
 }
 .header-avatar img {
@@ -87,7 +90,8 @@
   position: relative;
   float: left;
   top: 6px;
-  margin-top: -15px;
+  margin-top: -18px;
+  margin-bottom: 0;
 }
 /*
  * Forumlist
@@ -261,14 +265,6 @@
 .info-online .panel-heading {
   font-size: 14px;
 }
-.info-online-legend .label {
-  font-size: 10px;
-}
-@media (min-width: 1200px) {
-  .info-online-legend .label {
-    font-size: 12px;
-  }
-}
 .info-online-stats {
   margin: 0;
 }
@@ -279,6 +275,10 @@
   padding-left: 12px;
   color: #999999;
 }
+.info-online .list-inline > li,
+.info-birthdays .list-inline > li {
+  padding: 2px;
+}
 /*
  * Copyright
  * --------------------------------------------------*/
@@ -286,37 +286,41 @@
   margin-bottom: 18px;
   font-size: 12px;
 }
+.footer ul li {
+  padding: 0 2px;
+}
 @media (min-width: 768px) {
   .footer {
     font-size: 14px;
   }
 }
-.label.admint {
-  background: #BC2A4D;
-}
 a.admint {
   color: #BC2A4D;
 }
-a.admint :hover {
+a.admint:hover {
   color: #92213c;
 }
-a:hover .label.admint {
+a:hover .label.admint,
+.label-list-left a.admint:hover {
   background: #92213c;
 }
-.label.dev {
-  background: #009900;
+.label.admint,
+.label-list-left a.admint {
+  background: #BC2A4D;
 }
 a.dev {
   color: #009900;
 }
-a.dev :hover {
+a.dev:hover {
   color: #006600;
 }
-a:hover .label.dev {
+a:hover .label.dev,
+.label-list-left a.dev:hover {
   background: #006600;
 }
-.label.modt {
-  background: #660099;
+.label.dev,
+.label-list-left a.dev {
+  background: #009900;
 }
 a.modt {
   color: #660099;
@@ -324,23 +328,27 @@ a.modt {
 a.modt:hover {
   color: #440066;
 }
-a:hover .label.modt {
+a:hover .label.modt,
+.label-list-left a.modt:hover {
   background: #440066;
 }
-.label.mod {
-  background: #0000CC;
+.label.modt,
+.label-list-left a.modt {
+  background: #660099;
 }
 a.mod {
   color: #0000CC;
 }
-a.mod :hover {
+a.mod:hover {
   color: #000099;
 }
-a:hover .label.mod {
+a:hover .label.mod,
+.label-list-left a.mod:hover {
   background: #000099;
 }
-.label.stylet {
-  background: #CC33CC;
+.label.mod,
+.label-list-left a.mod {
+  background: #0000CC;
 }
 a.stylet {
   color: #CC33CC;
@@ -348,11 +356,13 @@ a.stylet {
 a.stylet:hover {
   color: #a329a3;
 }
-a:hover .label.stylet {
+a:hover .label.stylet,
+.label-list-left a.stylet:hover {
   background: #a329a3;
 }
-.label.supt {
-  background: #CC6600;
+.label.stylet,
+.label-list-left a.stylet {
+  background: #CC33CC;
 }
 a.supt {
   color: #CC6600;
@@ -360,11 +370,13 @@ a.supt {
 a.supt:hover {
   color: #994d00;
 }
-a:hover .label.supt {
+a:hover .label.supt,
+.label-list-left a.supt:hover {
   background: #994d00;
 }
-.label.webt {
-  background: #0099CC;
+.label.supt,
+.label-list-left a.supt {
+  background: #CC6600;
 }
 a.webt {
   color: #0099CC;
@@ -372,11 +384,13 @@ a.webt {
 a.webt:hover {
   color: #007399;
 }
-a:hover .label.webt {
+a:hover .label.webt,
+.label-list-left a.webt:hover {
   background: #007399;
 }
-.label.bot {
-  background: #cccccc;
+.label.webt,
+.label-list-left a.webt {
+  background: #0099CC;
 }
 a.bot {
   color: #cccccc;
@@ -384,11 +398,13 @@ a.bot {
 a.bot:hover {
   color: #b3b3b3;
 }
-a:hover .label.bot {
+a:hover .label.bot,
+.label-list-left a.bot:hover {
   background: #b3b3b3;
 }
-.label.user {
-  background: #21b5e4;
+.label.bot,
+.label-list-left a.bot {
+  background: #cccccc;
 }
 a.user {
   color: #21b5e4;
@@ -396,6 +412,21 @@ a.user {
 a.user:hover {
   color: #1794bb;
 }
-a:hover .label.user {
+a:hover .label.user,
+.label-list-left a.user:hover {
   background: #1794bb;
+}
+.label.user,
+.label-list-left a.user {
+  background: #21b5e4;
+}
+.label-list-left a.admint:hover,
+.label-list-left a.dev:hover,
+.label-list-left a.modt:hover,
+.label-list-left a.mod:hover,
+.label-list-left a.stylet:hover,
+.label-list-left a.supt:hover,
+.label-list-left a.webt:hover,
+.label-list-left a.user:hover {
+  color: #ffffff;
 }
