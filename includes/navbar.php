@@ -26,7 +26,7 @@
 							</li>
 							<li class="pull-right">
 								<ul class="list-inline">
-									<li class="header-avatar pull-left"><a href="#" title="Control Panel"><img src="img/user.jpg" width="30px" height="30px" alt="USER: user" /> user</a></li>
+									<li class="header-avatar pull-left"><a href="#" class="user" title="Control Panel"><img src="img/user.jpg" width="30px" height="30px" alt="USER: user" /> user</a></li>
 									<li><a href="#" title="Notifications"><span class="glyphicon glyphicon-inbox"></span> <span class="text-hide">Notifications</span> <span class="badge">5</span></a></li>
 									<li><a href="#" title="Private Messages"><span class="glyphicon glyphicon-envelope"></span> <span class="text-hide">PMs</span> <span class="badge">2</span> </a></li>
 									<li><a href="#" title="Logout"><span class="glyphicon glyphicon-off"></span> <span class="text-hide">Logout</span> </a></li>
