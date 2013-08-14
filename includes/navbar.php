@@ -36,10 +36,5 @@
 						</ul>
 					</nav>
 				</hgroup>
-					<ul class="breadcrumb">
-						<li><a href="#"><span class="glyphicon glyphicon-home"></span> Board Index</a></li>
-						<li><a href="#">Library</a></li>
-						<li class="active">Data</li>
-					</ul>
 				</section>
 			</header>

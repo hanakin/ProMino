@@ -20,6 +20,7 @@
 		<div class="container">
 
 			<?php include("includes/navbar.php"); ?>
+			<?php include("includes/breadcrumb.php"); ?>
 			<?php include("includes/forumlist.php"); ?>
 			<?php include("includes/info.php"); ?>
 			<?php include("includes/copyright.php"); ?>
