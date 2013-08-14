@@ -14,14 +14,10 @@
 .label-list > li a,
 .label-list > li span {
   margin: 0 0 0 -3px;
-  padding: .25em .5em .5em;
-  font-size: 75%;
+  padding: .3em .6em;
+  font-size: .8em;
   font-weight: 500;
-  line-height: 1;
   color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
   background-color: #999999;
 }
 .label-list > li a {
@@ -34,19 +30,22 @@
 .label-list .label-list-left a,
 .label-list .label-list-left span {
   margin: 0;
-  border-top-left-radius: .25em;
-  border-bottom-left-radius: .25em;
+  border-top-left-radius: .3em;
+  border-bottom-left-radius: .3em;
 }
 .label-list .label-list-right a,
 .label-list .label-list-right span {
-  border-top-right-radius: .25em;
-  border-bottom-right-radius: .25em;
+  border-top-right-radius: .3em;
+  border-bottom-right-radius: .3em;
 }
 /*
  * Navbar
  * --------------------------------------------------*/
 .header .badge {
   margin: -30px 0 0 -15px;
+}
+.header .glyphicon {
+  font-size: 20px;
 }
 .header > hgroup {
   padding: 7px 12px;
@@ -105,24 +104,6 @@
   color: #ffffff;
   text-decoration: underline;
 }
-.forum-title:before,
-.forum-title:after {
-  content: " ";
-  display: table;
-}
-.forum-title:after {
-  clear: both;
-}
-.forum-icon {
-  font-size: 14px;
-  padding-right: 12px;
-}
-.forum-label {
-  display: none;
-  margin-left: 12px;
-  font-size: 10px;
-  text-transform: uppercase;
-}
 .forum-row {
   padding: 6px;
   background: #ffffff;
@@ -132,16 +113,17 @@
   margin-top: 6px;
 }
 .forum-row > h2,
-.forum-row .h5,
-.forum-row p {
+.forum-row .h5 {
   margin: 0;
 }
 .forum-row dfn {
   padding-top: 6px;
 }
+.forum-row p {
+  margin-bottom: 0;
+}
 .forum-row:hover {
   background: #e6e6e6;
-  cursor: pointer;
 }
 .forum-row:hover .label {
   color: #e6e6e6;
@@ -152,9 +134,90 @@
 .forum-row::last-child {
   border-bottom: none;
 }
+.forum-icon {
+  font-size: 14px;
+  padding-right: 12px;
+}
+.forum-title:before,
+.forum-title:after {
+  content: " ";
+  display: table;
+}
+.forum-title:after {
+  clear: both;
+}
+.forum-label {
+  display: none;
+  margin-left: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.locked,
+.unread,
+.sticky,
+.announcement,
+.global,
+.mine {
+  display: inline;
+}
+.unread {
+  background: #d44950;
+}
+.sticky {
+  background: #48d470;
+}
+.announcement {
+  background: #2f6fa1;
+}
+.global {
+  background: #ffcd1a;
+}
+.mine {
+  padding: 3px 4px;
+  font-size: 3px;
+  color: #4f9fd0;
+  background: #4f9fd0;
+}
 .forum-sub {
   border-left: 5px solid #333333;
   padding-left: 1px;
+}
+.forum-description.popover {
+  max-width: 60%;
+  left: 40%;
+}
+.forum-description.popover.bottom {
+  margin-top: 35px;
+}
+@media (max-width: 768px) {
+  .forum-description {
+    display: block;
+  }
+  .forum-description.popover {
+    border: none;
+    position: relative;
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: inherit;
+    background: transparent;
+    max-width: 100%;
+    left: 0;
+  }
+  .forum-description.popover.bottom {
+    margin: 0;
+  }
+  .forum-description.popover .popover-content {
+    padding: 0;
+    display: inline;
+  }
+  .forum-description .arrow {
+    display: none;
+  }
+}
+.forum-recent {
+  padding-top: 4px;
 }
 .forum-recent > a {
   color: #cccccc;
@@ -162,31 +225,22 @@
 .forum-recent > a:hover {
   color: #333333;
 }
-.unread {
-  display: inline;
-  background: #d44950;
+.forum-recent .popover {
+  margin-left: -36px;
+  top: -15px;
 }
-.sticky {
-  display: inline;
-  background: #48d470;
+@media (min-width: 992px) {
+  .forum-recent:hover .popover {
+    display: block;
+  }
+  .forum-row hgroup:hover .forum-description {
+    display: block;
+  }
 }
-.announcement {
-  display: inline;
-  background: #2f6fa1;
-}
-.global {
-  display: inline;
-  background: #ffcd1a;
-}
-.locked {
-  display: inline;
-}
-.mine {
-  display: inline;
-  padding: 3px 4px;
-  font-size: 3px;
-  color: #4f9fd0;
-  background: #4f9fd0;
+@media (min-width: 1200px) {
+  .forum-recent .popover {
+    margin-left: 0;
+  }
 }
 /*
  * Info panel
