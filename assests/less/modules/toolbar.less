@@ -1,0 +1,21 @@
+/*
+ * Toolbar
+ * --------------------------------------------------*/
+.toolbar {
+	margin-top: -8px;
+	&.label-list .label-list-left { 
+		position: relative;
+		top: -2px;
+	}
+	&.label-list > li span.copy { 
+		padding: 4px 6px;
+		background-color: @gray-darker; 
+	}
+	&.label-list > li a { 
+		background-color: @gray-lighter; 
+		color: @gray;
+		font-size: @font-size-base;
+		padding: 3px 3px 0 7px;
+		&:hover { color: @black; }
+	}
+}

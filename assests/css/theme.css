@@ -10,9 +10,10 @@
 }
 .label-list > li {
   display: inline-block;
+  margin: 0;
 }
 .label-list > li a,
-.label-list > li span {
+.label-list > li span.copy {
   margin: 0 0 0 -2px;
   padding: .2em .6em;
   font-size: .8em;
@@ -39,6 +40,29 @@
   display: inline-block;
   border-top-right-radius: .3em;
   border-bottom-right-radius: .3em;
+}
+/*
+ * Toolbar
+ * --------------------------------------------------*/
+.toolbar {
+  margin-top: -8px;
+}
+.toolbar.label-list .label-list-left {
+  position: relative;
+  top: -2px;
+}
+.toolbar.label-list > li span.copy {
+  padding: 4px 6px;
+  background-color: #666666;
+}
+.toolbar.label-list > li a {
+  background-color: #cccccc;
+  color: #999999;
+  font-size: 14px;
+  padding: 3px 3px 0 7px;
+}
+.toolbar.label-list > li a:hover {
+  color: #333333;
 }
 /*
  * Navbar
@@ -96,6 +120,11 @@
 /*
  * Forumlist
  * --------------------------------------------------*/
+@media (min-width: 768px) {
+  .forums {
+    margin-top: 47px;
+  }
+}
 .forum-name {
   padding: 6px 24px;
   margin: 0;
@@ -420,6 +449,17 @@ a:hover .label.user,
 .label-list-left a.user {
   background: #21b5e4;
 }
+a.admint:hover,
+a.dev:hover,
+a.modt:hover,
+a.mod:hover,
+a.stylet:hover,
+a.supt:hover,
+a.webt:hover,
+a.bot:hover,
+a.user:hover {
+  text-decoration: underline;
+}
 .label-list-left a.admint:hover,
 .label-list-left a.dev:hover,
 .label-list-left a.modt:hover,
@@ -427,6 +467,8 @@ a:hover .label.user,
 .label-list-left a.stylet:hover,
 .label-list-left a.supt:hover,
 .label-list-left a.webt:hover,
+.label-list-left a.bot:hover,
 .label-list-left a.user:hover {
   color: #ffffff;
+  text-decoration: none;
 }
