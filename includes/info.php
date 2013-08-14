@@ -50,73 +50,73 @@
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: ErzengelAzrael">ErzengelAzrael</a></li>
-										<li class="label-list-right"><span>48</span></li>
+										<li class="label-list-right"><span class="copy">48</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: PartizanE">PartizanE</a></li>
-										<li class="label-list-right"><span>43</span></li>
+										<li class="label-list-right"><span class="copy">43</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="admint" title="ADMIN: MirabellAC">MirabellAC</a></li>
-										<li class="label-list-right"><span>38</span></li>
+										<li class="label-list-right"><span class="copy">38</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="webt" title="WEB: sawo1955">sawo1955</a></li>
-										<li class="label-list-right"><span>35</span></li>
+										<li class="label-list-right"><span class="copy">35</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: EkspertRu">EkspertRu</a></li>
-										<li class="label-list-right"><span>29</span></li>
+										<li class="label-list-right"><span class="copy">29</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="dev" title="DEV: Pyramide">Pyramide</a></li>
-										<li class="label-list-right"><span>28</span></li>
+										<li class="label-list-right"><span class="copy">28</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: Tar-Minyatur">Tar-Minyatur</a></li>
-										<li class="label-list-right"><span>28</span></li>
+										<li class="label-list-right"><span class="copy">28</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="modt" title="MOD: danieldevil">danieldevil</a></li>
-										<li class="label-list-right"><span>24</span></li>
+										<li class="label-list-right"><span class="copy">24</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: Bruno_me">Bruno_me</a></li>
-										<li class="label-list-right"><span>24</span></li>
+										<li class="label-list-right"><span class="copy">24</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="stylet" title="STYLES: flo87">flo87</a></li>
-										<li class="label-list-right"><span>23</span></li>
+										<li class="label-list-right"><span class="copy">23</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" title="USER: NittoHelp">NittoHelp</a></li>
-										<li class="label-list-right"><span>23</span></li>
+										<li class="label-list-right"><span class="copy">23</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
 										<li class="label-list-left"><a href="#" class="supt" title="SUPT: _LB">_LB</a></li>
-										<li class="label-list-right"><span>18</span></li>
+										<li class="label-list-right"><span class="copy">18</span></li>
 									</ul>
 								</li>	
 							</ul>
