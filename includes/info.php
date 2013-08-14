@@ -35,17 +35,9 @@
 							<a href="" title="" class="supt">Noxwizard</a>, 
 							<a href="" title="" class="bot">Yahoo Slurp</a></dd>
 					</dl>
-					<div class="panel-footer">
-						<dl class="info-online-stats dl-horizontal">
-  							<dt>145 users online</dt>
-  							<dd>(in the last 60 minutes): <small>66 members, 703 guests, 4 anonymous users</small></dd>
-  						</dl>
-					</div>
-				</article>
-				<article class="info-birthdays hidden-sm">
-					<dl class="label-list dl-horizontal">
+					<dl class="info-birthdays dl-horizontal">
 						<dt>Birthday Congrates to: </dt>
-						<dd class="label-group-name">
+						<dd>
 							<a href="" title="USER: Psyao"><span class="label user">Psyao</span></a>,
 							<ul class="label-list">
 								<li class="label-list-left"><a href="" title="">ErzengelAzrael</a></li>
@@ -97,6 +89,12 @@
 							</ul>
 						</dd>
 					</dl>
+					<div class="panel-footer">
+						<dl class="info-online-stats dl-horizontal">
+  							<dt>145 users online</dt>
+  							<dd>(in the last 60 minutes): <small>66 members, 703 guests, 4 anonymous users</small></dd>
+  						</dl>
+					</div>
 				</article>
 			</section>
 
