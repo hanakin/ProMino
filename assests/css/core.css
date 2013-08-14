@@ -1496,6 +1496,10 @@ a.badge:focus {
   color: #cccccc;
   font-weight: normal;
 }
+.popover small a {
+  font-size: 120%;
+  font-weight: 500;
+}
 .popover-title {
   margin: 0;
   padding: 8px 14px;

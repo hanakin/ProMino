@@ -14,7 +14,7 @@
 									<span class="label pull-left hidden-sm">575</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -29,7 +29,7 @@
 									<span class="label pull-left hidden-sm">1289</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Git push account - … <small>by <a href="#" class="user" title="user">user</a> <time>May 07</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Git push account - … <small>by <a href="#" class="user" title="USER: user">user</a> <time>May 07</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -49,7 +49,7 @@
 									<span class="label pull-left hidden-sm">4429</span> 
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -65,7 +65,7 @@
 									<span class="label pull-left hidden-sm">4862</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -80,7 +80,7 @@
 									<span class="label pull-left hidden-sm">61</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -107,7 +107,7 @@
 									<span class="label pull-left hidden-sm">2821</span>    
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -122,7 +122,7 @@
 									<span class="label pull-left hidden-sm">79</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -138,7 +138,7 @@
 									<span class="label pull-left hidden-sm">841</span> 
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
@@ -153,7 +153,7 @@
 									<span class="label pull-left hidden-sm">40</span>   
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite
 								</p>
 							</li>
