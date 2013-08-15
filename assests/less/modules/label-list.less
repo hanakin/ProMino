@@ -8,37 +8,11 @@
 	list-style: none;
 	> li {
 		display: inline-block;
-		margin: 0;
+		margin: 0 0 0 -2px;
 		// Add hover effects, but only for links
-		a, span.copy {
-			margin: 0 0 0 -2px;
-			padding: .2em .6em;
-			font-size: .8em;
-			font-weight: 500;
-			color: #fff;
-			background-color: @gray;
-		}
-
-		a {
-			background-color: @link-color;
-			&:hover,
-			&:focus { background-color: @link-hover-color; }
-		}
-	}
-	.label-list-left {
-		a, span {
-			display: inline-block;
-			margin: 0;
-			border-top-left-radius: .3em;
-			border-bottom-left-radius: .3em;
-		}
-	}
-
-	.label-list-right {
-		a, span {
-			display: inline-block;
-			border-top-right-radius: .3em;
-			border-bottom-right-radius: .3em;
-		}
 	}
 }
+
+.label-list-left .label { .border-right-radius(0); }
+.label-list-right .label { .border-left-radius(0); }
+.label-list-center .label { border-radius: 0; }

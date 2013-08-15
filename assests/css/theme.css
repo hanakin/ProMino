@@ -10,36 +10,18 @@
 }
 .label-list > li {
   display: inline-block;
-  margin: 0;
-}
-.label-list > li a,
-.label-list > li span.copy {
   margin: 0 0 0 -2px;
-  padding: .2em .6em;
-  font-size: .8em;
-  font-weight: 500;
-  color: #fff;
-  background-color: #999999;
 }
-.label-list > li a {
-  background-color: #21b5e4;
+.label-list-left .label {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
-.label-list > li a:hover,
-.label-list > li a:focus {
-  background-color: #1482a4;
+.label-list-right .label {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
-.label-list .label-list-left a,
-.label-list .label-list-left span {
-  display: inline-block;
-  margin: 0;
-  border-top-left-radius: .3em;
-  border-bottom-left-radius: .3em;
-}
-.label-list .label-list-right a,
-.label-list .label-list-right span {
-  display: inline-block;
-  border-top-right-radius: .3em;
-  border-bottom-right-radius: .3em;
+.label-list-center .label {
+  border-radius: 0;
 }
 /*
  * Toolbar
@@ -47,22 +29,15 @@
 .toolbar {
   margin-top: -8px;
 }
-.toolbar.label-list .label-list-left {
-  position: relative;
-  top: -2px;
+.toolbar .text-hide {
+  display: none;
 }
-.toolbar.label-list > li span.copy {
-  padding: 4px 6px;
-  background-color: #666666;
-}
-.toolbar.label-list > li a {
-  background-color: #cccccc;
+.toolbar a .label {
   color: #999999;
-  font-size: 14px;
-  padding: 3px 3px 0 7px;
+  background: #666666;
 }
-.toolbar.label-list > li a:hover {
-  color: #333333;
+.toolbar a .label:hover {
+  color: #ffffff;
 }
 /*
  * Navbar
@@ -329,97 +304,12 @@ a.admint {
 a.admint:hover {
   color: #92213c;
 }
-a:hover .label.admint,
-.label-list-left a.admint:hover {
-  background: #92213c;
-}
-.label.admint,
-.label-list-left a.admint {
+a.admint .label {
+  color: #ffffff;
   background: #BC2A4D;
 }
-a.dev {
-  color: #009900;
-}
-a.dev:hover {
-  color: #006600;
-}
-a:hover .label.dev,
-.label-list-left a.dev:hover {
-  background: #006600;
-}
-.label.dev,
-.label-list-left a.dev {
-  background: #009900;
-}
-a.modt {
-  color: #660099;
-}
-a.modt:hover {
-  color: #440066;
-}
-a:hover .label.modt,
-.label-list-left a.modt:hover {
-  background: #440066;
-}
-.label.modt,
-.label-list-left a.modt {
-  background: #660099;
-}
-a.mod {
-  color: #0000CC;
-}
-a.mod:hover {
-  color: #000099;
-}
-a:hover .label.mod,
-.label-list-left a.mod:hover {
-  background: #000099;
-}
-.label.mod,
-.label-list-left a.mod {
-  background: #0000CC;
-}
-a.stylet {
-  color: #CC33CC;
-}
-a.stylet:hover {
-  color: #a329a3;
-}
-a:hover .label.stylet,
-.label-list-left a.stylet:hover {
-  background: #a329a3;
-}
-.label.stylet,
-.label-list-left a.stylet {
-  background: #CC33CC;
-}
-a.supt {
-  color: #CC6600;
-}
-a.supt:hover {
-  color: #994d00;
-}
-a:hover .label.supt,
-.label-list-left a.supt:hover {
-  background: #994d00;
-}
-.label.supt,
-.label-list-left a.supt {
-  background: #CC6600;
-}
-a.webt {
-  color: #0099CC;
-}
-a.webt:hover {
-  color: #007399;
-}
-a:hover .label.webt,
-.label-list-left a.webt:hover {
-  background: #007399;
-}
-.label.webt,
-.label-list-left a.webt {
-  background: #0099CC;
+a.admint .label:hover {
+  background: #92213c;
 }
 a.bot {
   color: #cccccc;
@@ -427,13 +317,77 @@ a.bot {
 a.bot:hover {
   color: #b3b3b3;
 }
-a:hover .label.bot,
-.label-list-left a.bot:hover {
+a.bot .label {
+  color: #ffffff;
+  background: #cccccc;
+}
+a.bot .label:hover {
   background: #b3b3b3;
 }
-.label.bot,
-.label-list-left a.bot {
-  background: #cccccc;
+a.dev {
+  color: #009900;
+}
+a.dev:hover {
+  color: #006600;
+}
+a.dev .label {
+  color: #ffffff;
+  background: #009900;
+}
+a.dev .label:hover {
+  background: #006600;
+}
+a.mod {
+  color: #660099;
+}
+a.mod:hover {
+  color: #440066;
+}
+a.mod .label {
+  color: #ffffff;
+  background: #660099;
+}
+a.mod .label:hover {
+  background: #440066;
+}
+a.modt {
+  color: #0000CC;
+}
+a.modt:hover {
+  color: #000099;
+}
+a.modt .label {
+  color: #ffffff;
+  background: #0000CC;
+}
+a.modt .label:hover {
+  background: #000099;
+}
+a.stylet {
+  color: #CC33CC;
+}
+a.stylet:hover {
+  color: #a329a3;
+}
+a.stylet .label {
+  color: #ffffff;
+  background: #CC33CC;
+}
+a.stylet .label:hover {
+  background: #a329a3;
+}
+a.supt {
+  color: #CC6600;
+}
+a.supt:hover {
+  color: #994d00;
+}
+a.supt .label {
+  color: #ffffff;
+  background: #CC6600;
+}
+a.supt .label:hover {
+  background: #994d00;
 }
 a.user {
   color: #21b5e4;
@@ -441,13 +395,25 @@ a.user {
 a.user:hover {
   color: #1794bb;
 }
-a:hover .label.user,
-.label-list-left a.user:hover {
+a.user .label {
+  color: #ffffff;
+  background: #21b5e4;
+}
+a.user .label:hover {
   background: #1794bb;
 }
-.label.user,
-.label-list-left a.user {
-  background: #21b5e4;
+a.webt {
+  color: #0099CC;
+}
+a.webt:hover {
+  color: #007399;
+}
+a.webt .label {
+  color: #ffffff;
+  background: #0099CC;
+}
+a.webt .label:hover {
+  background: #007399;
 }
 a.admint:hover,
 a.dev:hover,
@@ -459,16 +425,4 @@ a.webt:hover,
 a.bot:hover,
 a.user:hover {
   text-decoration: underline;
-}
-.label-list-left a.admint:hover,
-.label-list-left a.dev:hover,
-.label-list-left a.modt:hover,
-.label-list-left a.mod:hover,
-.label-list-left a.stylet:hover,
-.label-list-left a.supt:hover,
-.label-list-left a.webt:hover,
-.label-list-left a.bot:hover,
-.label-list-left a.user:hover {
-  color: #ffffff;
-  text-decoration: none;
 }

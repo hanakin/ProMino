@@ -10,18 +10,18 @@
 					<dd><span class="label">19245</span></dd>
 
 					<dt>Newest Member</dt>
-					<dd><a href="#" title="USER: kalasweet"><span class="label user">kalasweet</span></a></dd>
+					<dd><a href="#" title="USER: kalasweet" class="user"><span class="label">kalasweet</span></a></dd>
 				</dl>
 				<article class="info-online panel hidden-sm">
   					<div class="info-online-legend panel-heading">
   						<ul class="list-inline">
-  							<li><a href="#" title="Administrators"><span class="label admint">Administrators</span></a></li>
-		  					<li><a href="#" title="Developers"><span class="label dev">Developers</span></a></li>
-		  					<li><a href="#" title="Moderators"><span class="label modt">Moderators</span></a></li>
-		  					<li><a href="#" title="Styles Team"><span class="label stylet">Styles Team</span></a></li>
-		  					<li><a href="#" title="Support Team"><span class="label supt">Support Team</span></a> </li>
-		  					<li><a href="#" title="Website Team"><span class="label webt">Website Team</span></a></li>
-		  					<li><a href="#" title="Registered User"><span class="label user">Registered User</span></a></li>
+  							<li><a href="#" title="Administrators" class="admint"><span class="label">Administrators</span></a></li>
+		  					<li><a href="#" title="Developers" class="dev"><span class="label">Developers</span></a></li>
+		  					<li><a href="#" title="Moderators" class="modt"><span class="label">Moderators</span></a></li>
+		  					<li><a href="#" title="Styles Team" class="stylet"><span class="label">Styles Team</span></a></li>
+		  					<li><a href="#" title="Support Team" class="supt"><span class="label">Support Team</span></a> </li>
+		  					<li><a href="#" title="Website Team" class="webt"><span class="label">Website Team</span></a></li>
+		  					<li><a href="#" title="Registered User" class="user"><span class="label">Registered User</span></a></li>
   						</ul>
   					</div>
   					<dl class="info-online-list dl-horizontal">
@@ -46,77 +46,77 @@
 						<dt>Birthday Congrates to: </dt>
 						<dd>
 							<ul class="list-inline">
-								<li><a href="#" title="USER: Psyao"><span class="label user">Psyao</span></a>
+								<li><a href="#" title="USER: Psyao" class="user"><span class="label">Psyao</span></a>
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: ErzengelAzrael">ErzengelAzrael</a></li>
-										<li class="label-list-right"><span class="copy">48</span></li>
+										<li class="label-list-left"><a href="#" title="USER: ErzengelAzrael" class="user"><span class="label">ErzengelAzrael</span></a></li>
+										<li class="label-list-right"><span class="label">48</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: PartizanE">PartizanE</a></li>
-										<li class="label-list-right"><span class="copy">43</span></li>
+										<li class="label-list-left"><a href="#" title="USER: PartizanE" class="user"><span class="label">PartizanE</span></a></li>
+										<li class="label-list-right"><span class="label">43</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="admint" title="ADMIN: MirabellAC">MirabellAC</a></li>
-										<li class="label-list-right"><span class="copy">38</span></li>
+										<li class="label-list-left"><a href="#" class="admint" title="ADMIN: MirabellAC"><span class="label">MirabellAC</span></a></li>
+										<li class="label-list-right"><span class="label">38</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="webt" title="WEB: sawo1955">sawo1955</a></li>
-										<li class="label-list-right"><span class="copy">35</span></li>
+										<li class="label-list-left"><a href="#" class="webt" title="WEB: sawo1955"><span class="label">sawo1955</span></a></li>
+										<li class="label-list-right"><span class="label">35</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: EkspertRu">EkspertRu</a></li>
-										<li class="label-list-right"><span class="copy">29</span></li>
+										<li class="label-list-left"><a href="#" title="USER: EkspertRu" class="user"><span class="label">EkspertRu</span></a></li>
+										<li class="label-list-right"><span class="label">29</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="dev" title="DEV: Pyramide">Pyramide</a></li>
-										<li class="label-list-right"><span class="copy">28</span></li>
+										<li class="label-list-left"><a href="#" class="dev" title="DEV: Pyramide"><span class="label">Pyramide</span></a></li>
+										<li class="label-list-right"><span class="label">28</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: Tar-Minyatur">Tar-Minyatur</a></li>
-										<li class="label-list-right"><span class="copy">28</span></li>
+										<li class="label-list-left"><a href="#" title="USER: Tar-Minyatur" class="user"><span class="label">Tar-Minyatur</span></a></li>
+										<li class="label-list-right"><span class="label">28</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="modt" title="MOD: danieldevil">danieldevil</a></li>
-										<li class="label-list-right"><span class="copy">24</span></li>
+										<li class="label-list-left"><a href="#" class="modt" title="MOD: danieldevil"><span class="label">danieldevil</span></a></li>
+										<li class="label-list-right"><span class="label">24</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: Bruno_me">Bruno_me</a></li>
-										<li class="label-list-right"><span class="copy">24</span></li>
+										<li class="label-list-left"><a href="#" title="USER: Bruno_me" class="user"><span class="label">Bruno_me</span></a></li>
+										<li class="label-list-right"><span class="label">24</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="stylet" title="STYLES: flo87">flo87</a></li>
-										<li class="label-list-right"><span class="copy">23</span></li>
+										<li class="label-list-left"><a href="#" class="stylet" title="STYLES: flo87"><span class="label">flo87</span></a></li>
+										<li class="label-list-right"><span class="label">23</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" title="USER: NittoHelp">NittoHelp</a></li>
-										<li class="label-list-right"><span class="copy">23</span></li>
+										<li class="label-list-left"><a href="#" title="USER: NittoHelp" class="user"><span class="label">NittoHelp</span></a></li>
+										<li class="label-list-right"><span class="label">23</span></li>
 									</ul>
 								</li>	
 								<li>
 									<ul class="label-list">
-										<li class="label-list-left"><a href="#" class="supt" title="SUPT: _LB">_LB</a></li>
-										<li class="label-list-right"><span class="copy">18</span></li>
+										<li class="label-list-left"><a href="#" class="supt" title="SUPT: _LB" class="user"><span class="label">_LB</span></a></li>
+										<li class="label-list-right"><span class="label">18</span></li>
 									</ul>
 								</li>	
 							</ul>
@@ -130,4 +130,3 @@
 					</div>
 				</article>
 			</section>
-
