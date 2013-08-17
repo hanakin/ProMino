@@ -18,13 +18,18 @@
 		<![endif]-->
 
 		<div class="container">
-
-			<?php include("includes/navbar.php"); ?>
-			<?php include("includes/breadcrumb.php"); ?>
-			<?php include("includes/toolbar.php"); ?>
-			<?php include("includes/forumlist.php"); ?>
-			<?php include("includes/info.php"); ?>
-			<?php include("includes/copyright.php"); ?>
+			<header class="header">
+				<?php include("includes/navbar.php"); ?>
+			</header>
+			<div class="main">
+				<?php include("includes/breadcrumb.php"); ?>
+				<?php include("includes/toolbar.php"); ?>
+				<?php include("includes/forumlist.php"); ?>
+				<?php include("includes/info.php"); ?>
+			</div>
+			<footer class="footer text-center">
+				<?php include("includes/copyright.php"); ?>
+			</footer>
 
 		</div>
 

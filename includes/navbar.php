@@ -1,4 +1,3 @@
-			<header class="header">
 				<nav class="header-mobile-nav visible-sm">
 					<ul class="list-inline row">
 						<li class="col-4">
@@ -21,20 +20,19 @@
 						<ul class="list-inline row">
 							<li class="pull-left">
 								<ul class="list-inline">
-									<li class="pull-left"><a href="#" title="Advanced Search"><span class="glyphicon glyphicon-list-alt"></span> <span class="text-hide">Advanced Search</span> </a></li>
+									<li class="pull-left"><a href="#" data-toogle="tooltip" data-placement="bottom" title="Advanced Search"><span class="glyphicon glyphicon-list-alt"></span> <span class="text-hide">Advanced Search</span> </a></li>
 								</ul>
 							</li>
 							<li class="pull-right">
 								<ul class="list-inline">
-									<li class="header-avatar pull-left"><a href="#" class="user" title="Control Panel"><img src="img/user.jpg" width="30px" height="30px" alt="USER: user" /> user</a></li>
-									<li><a href="#" title="Notifications"><span class="glyphicon glyphicon-inbox"></span> <span class="text-hide">Notifications</span> <span class="badge">5</span></a></li>
-									<li><a href="#" title="Private Messages"><span class="glyphicon glyphicon-envelope"></span> <span class="text-hide">PMs</span> <span class="badge">2</span> </a></li>
-									<li><a href="#" title="Logout"><span class="glyphicon glyphicon-off"></span> <span class="text-hide">Logout</span> </a></li>
-									<li><a href="#" title="Moderator Control Panel"><span class="glyphicon glyphicon-cog"></span> <span class="text-hide">Moderator Control Panel</span> </a></li>
+									<li class="header-avatar pull-left"><a href="#" title="Control Panel"><img src="img/user.jpg" width="30px" height="30px" data-toogle="tooltip" data-placement="bottom" data-container=".header" title="Control Panel" alt="Control Panel" /></a> <span class="user">hanakin</span></li>
+									<li><a href="#" data-toogle="tooltip" data-placement="bottom" data-container=".header" title="Notifications"><span class="glyphicon glyphicon-inbox"></span> <span class="text-hide">Notifications</span> <span class="badge">5</span></a></li>
+									<li><a href="#" data-toogle="tooltip" data-placement="bottom" data-container=".header" title="Private Messages"><span class="glyphicon glyphicon-envelope"></span> <span class="text-hide">PMs</span> <span class="badge">2</span> </a></li>
+									<li><a href="#" data-toogle="tooltip" data-placement="bottom" data-container=".header" title="Logout"><span class="glyphicon glyphicon-off"></span> <span class="text-hide">Logout</span> </a></li>
+									<li><a href="#" data-toogle="tooltip" data-placement="bottom" data-container=".header" title="Moderator Control Panel"><span class="glyphicon glyphicon-cog"></span> <span class="text-hide">Moderator Control Panel</span> </a></li>
 								</ul>
 							</li>
 						</ul>
 					</nav>
 				</hgroup>
 				</section>
-			</header>
