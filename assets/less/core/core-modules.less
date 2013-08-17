@@ -1,0 +1,48 @@
+
+/* 
+   ==========================================================================
+   Modules or Components
+   ==========================================================================
+*/
+
+// Framework variables and mixins
+@import "../framework/_variables.less";
+@import "../framework/_mixins.less";
+
+// Framework Components
+@import "../framework/_glyphicon.less";
+@import "../framework/_buttons.less";
+@import "../framework/_labels.less";
+@import "../framework/_breadcrumb.less";
+@import "../framework/_badges.less";
+@import "../framework/_panels.less";
+@import "../framework/_popover.less";
+@import "../framework/_tooltip.less";
+
+// Core Customization
+
+.badge { vertical-align: middle; }
+
+.breadcrumb {
+	.glyphicon { font-size: @font-size-base; }
+	background-color: @white-darker;
+	> li {
+		&+li:before {
+			content: "\276e"; // Unicode space added since inline-block means non-collapsing white-space
+			padding: 0 @padding-base-horizontal;
+		}
+	}
+}
+
+// Tablets & small desktops only
+@media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+	.breadcrumb {
+		background-color: @breadcrumb-bg;
+	}
+}
+
+@media (min-width: @screen-desktop) {
+	.breadcrumb {
+		background-color: @breadcrumb-bg;
+	}
+}

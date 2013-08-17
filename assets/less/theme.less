@@ -1,0 +1,46 @@
+// Framework variables and mixins
+@import "framework/_variables.less";
+@import "framework/_mixins.less";
+
+/* 
+   ==========================================================================
+   Theme specific Content & alterations
+   ==========================================================================
+*/
+
+@import "modules/label-list.less";
+@import "modules/toolbar.less";
+
+// It is highly recomended that you break up the theme into sub components or modules and use this file to include them
+@import "modules/navbar.less";
+@import "modules/forumlist.less";
+@import "modules/info.less";
+@import "modules/copyright.less";
+
+
+.admint { color: #BC2A4D; }
+a.admint { .rank-color(#BC2A4D); }
+
+.bot { color: @gray-lighter; }
+a.bot { .rank-color(@gray-lighter); }
+
+.dev { color: #009900; }
+a.dev { .rank-color(#009900); }
+
+.mod { color: #660099; }
+a.mod { .rank-color(#660099); }
+
+.modt { color: #0000CC; }
+a.modt { .rank-color(#0000CC); }
+
+.stylet { color: #CC33CC; }
+a.stylet { .rank-color(#CC33CC); }
+
+.supt { color: #CC6600; }
+a.supt { .rank-color(#CC6600); }
+
+.user { color: @primary-color; }
+a.user { .rank-color(@primary-color); }
+
+.webt { color: #0099CC; }
+a.webt { .rank-color(#0099CC); }

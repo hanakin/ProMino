@@ -1,0 +1,52 @@
+/*
+ * Navbar
+ * --------------------------------------------------*/
+
+.header {
+	.badge { margin: -30px 0 0 -15px; }
+	.glyphicon { font-size: 20px; }
+	> hgroup { 
+		// Structure
+		padding: @padding-base-vertical+1 @padding-base-horizontal;
+		margin: @padding-base-vertical*2 0;
+		
+		// Look
+		background: @black;
+		a .glyphicon { color: @gray;	}
+		a:hover .glyphicon { color: @white; }
+		border-radius: @border-radius-large;
+	}
+}
+
+.header-nav > ul { margin-top: @padding-base-vertical+1; }
+
+.header-form { margin-top: 4px; }
+
+.header-logo { 
+	margin-top: -8px;
+	margin-bottom: 0;
+	top: 2px;
+}
+
+.header-avatar img { 
+	margin-right: @padding-base-vertical;
+	margin-top: -@padding-base-vertical/2; 
+}
+
+.header-mobile-nav { 
+	// Structure
+	padding: 14px @padding-large-horizontal 10px; 
+	
+	// Look
+	background: @black; 
+	a .glyphicon { color: @gray-darker;	}
+	a:hover .glyphicon { color: @white; }
+}
+
+.header-logo-mobile { 
+	position: relative;
+	float: left;
+	top: @padding-base-vertical;
+	margin-top: -18px;
+	margin-bottom: 0;
+}

@@ -1,0 +1,511 @@
+/* 
+   ==========================================================================
+   Theme specific Content & alterations
+   ==========================================================================
+*/
+.label-list {
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+}
+.label-list > li {
+  display: inline-block;
+  margin: 0 0 0 -2px;
+}
+.label-list-left .label {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.label-list-right .label {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.label-list-center .label {
+  border-radius: 0;
+}
+/*
+ * Toolbar
+ * --------------------------------------------------*/
+.toolbar {
+  margin-bottom: 12px;
+}
+.toolbar-tools {
+  margin: 0;
+  margin-top: -8px;
+}
+.toolbar-tools .label {
+  font-size: 1em;
+}
+.toolbar-tools .text-hide {
+  display: none;
+}
+.toolbar-tools a .label {
+  color: #999999;
+  background: #cccccc;
+  padding: .3em .6em .1em;
+}
+.toolbar-tools a .label:hover {
+  color: #333333;
+}
+.toolbar-tools:before,
+.toolbar-tools:after {
+  content: " ";
+  display: table;
+}
+.toolbar-tools:after {
+  clear: both;
+}
+.toolbar-tools .label-list-right {
+  position: relative;
+  top: 1px;
+}
+/*
+ * Navbar
+ * --------------------------------------------------*/
+.header .badge {
+  margin: -30px 0 0 -15px;
+}
+.header .glyphicon {
+  font-size: 20px;
+}
+.header > hgroup {
+  padding: 7px 12px;
+  margin: 12px 0;
+  background: #333333;
+  border-radius: 6px;
+}
+.header > hgroup a .glyphicon {
+  color: #999999;
+}
+.header > hgroup a:hover .glyphicon {
+  color: #ffffff;
+}
+.header-nav > ul {
+  margin-top: 7px;
+}
+.header-form {
+  margin-top: 4px;
+}
+.header-logo {
+  margin-top: -8px;
+  margin-bottom: 0;
+  top: 2px;
+}
+.header-avatar img {
+  margin-right: 6px;
+  margin-top: -3px;
+}
+.header-mobile-nav {
+  padding: 14px 16px 10px;
+  background: #333333;
+}
+.header-mobile-nav a .glyphicon {
+  color: #666666;
+}
+.header-mobile-nav a:hover .glyphicon {
+  color: #ffffff;
+}
+.header-logo-mobile {
+  position: relative;
+  float: left;
+  top: 6px;
+  margin-top: -18px;
+  margin-bottom: 0;
+}
+/*
+ * Forumlist
+ * --------------------------------------------------*/
+.forums {
+  margin-bottom: 0;
+}
+.forum {
+  padding-bottom: 24px;
+}
+.forum-name {
+  padding: 6px 24px;
+  margin: 0;
+  background: #21b5e4;
+}
+.forum-name > a {
+  color: #ffffff;
+}
+.forum-name > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .forum-name {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+}
+.forum-row {
+  padding: 6px;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+.forum-row hgroup {
+  margin-top: 6px;
+}
+.forum-row .h5 {
+  margin: 0;
+}
+.forum-row:hover {
+  background: #e6e6e6;
+}
+.forum-row:hover .label {
+  color: #e6e6e6;
+}
+.forum-row:hover .forum-recent > a {
+  color: #333333;
+}
+@media (min-width: 768px) {
+  .forum-row {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+  }
+  .forum-row:last-of-type {
+    border-bottom: 1px solid #dddddd;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .forum-list > li::last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+}
+.forum-icon {
+  font-size: 14px;
+  padding-right: 12px;
+}
+.forum-title:before,
+.forum-title:after {
+  content: " ";
+  display: table;
+}
+.forum-title:after {
+  clear: both;
+}
+.forum-label {
+  display: none;
+  margin-left: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.locked,
+.unread,
+.sticky,
+.announcement,
+.global,
+.mine {
+  display: inline;
+}
+.unread {
+  background: #d44950;
+}
+.sticky {
+  background: #48d470;
+}
+.announcement {
+  background: #2f6fa1;
+}
+.global {
+  background: #ffcd1a;
+}
+.mine {
+  padding: 3px 4px;
+  font-size: 3px;
+  color: #4f9fd0;
+  background: #4f9fd0;
+}
+.forum-sub {
+  background: #f5f5f5;
+  padding-left: 1px;
+}
+.forum-sub .label {
+  color: #f5f5f5;
+}
+.forum-description {
+  padding-top: 6px;
+}
+.forum-description.popover {
+  max-width: 60%;
+  left: 40%;
+}
+.forum-description.popover.bottom {
+  margin-top: 35px;
+}
+@media (max-width: 768px) {
+  .forum-description {
+    display: block;
+  }
+  .forum-description.popover {
+    border: none;
+    position: relative;
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: inherit;
+    background: transparent;
+    max-width: 100%;
+    left: 0;
+  }
+  .forum-description.popover.bottom {
+    margin: 0;
+  }
+  .forum-description.popover .popover-content {
+    padding: 0;
+    display: inline;
+  }
+  .forum-description .arrow {
+    display: none;
+  }
+}
+.forum-recent {
+  padding-top: 4px;
+  margin-bottom: 0;
+}
+.forum-recent > a {
+  color: #cccccc;
+}
+.forum-recent > a:hover {
+  color: #333333;
+}
+.forum-recent .popover {
+  margin-left: -36px;
+  top: -15px;
+}
+@media (min-width: 992px) {
+  .forum-recent:hover .popover {
+    display: block;
+  }
+  .forum-row hgroup:hover .forum-description {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .forum-recent .popover {
+    margin-left: 0;
+  }
+}
+/*
+ * Info panel
+ * --------------------------------------------------*/
+.info {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.info-stats {
+  margin: 0 0 24px 4%;
+}
+@media (min-width: 992px) {
+  .info-stats {
+    margin-left: 13%;
+  }
+}
+@media (min-width: 1200px) {
+  .info-stats {
+    margin-left: 22%;
+  }
+}
+.info-online {
+  margin: 0;
+}
+.info-online .panel-heading {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.info-online .panel-footer {
+  margin-top: 0;
+}
+.info-online-list,
+.info-birthdays {
+  margin-bottom: 12px;
+}
+.info-online-stats {
+  margin: 0;
+}
+.info-online-stats dd {
+  margin-left: 162px;
+}
+.info-online-stats dd small {
+  padding-left: 12px;
+  color: #999999;
+}
+.info-online .list-inline > li,
+.info-birthdays .list-inline > li {
+  padding: 2px;
+}
+.info-online .list-inline > li > a,
+.info-birthdays .list-inline > li > a {
+  margin-right: 4px;
+}
+/*
+ * Copyright
+ * --------------------------------------------------*/
+.footer {
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+.footer ul li {
+  padding: 0 2px;
+}
+@media (min-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+.admint {
+  color: #BC2A4D;
+}
+a.admint {
+  color: #bc2a4d;
+}
+a.admint:hover {
+  color: #92213c;
+  text-decoration: underline;
+}
+a.admint .label {
+  color: #ffffff;
+  background: #bc2a4d;
+}
+a.admint .label:hover {
+  background: #92213c;
+}
+.bot {
+  color: #cccccc;
+}
+a.bot {
+  color: #cccccc;
+}
+a.bot:hover {
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+a.bot .label {
+  color: #ffffff;
+  background: #cccccc;
+}
+a.bot .label:hover {
+  background: #b3b3b3;
+}
+.dev {
+  color: #009900;
+}
+a.dev {
+  color: #009900;
+}
+a.dev:hover {
+  color: #006600;
+  text-decoration: underline;
+}
+a.dev .label {
+  color: #ffffff;
+  background: #009900;
+}
+a.dev .label:hover {
+  background: #006600;
+}
+.mod {
+  color: #660099;
+}
+a.mod {
+  color: #660099;
+}
+a.mod:hover {
+  color: #440066;
+  text-decoration: underline;
+}
+a.mod .label {
+  color: #ffffff;
+  background: #660099;
+}
+a.mod .label:hover {
+  background: #440066;
+}
+.modt {
+  color: #0000CC;
+}
+a.modt {
+  color: #0000cc;
+}
+a.modt:hover {
+  color: #000099;
+  text-decoration: underline;
+}
+a.modt .label {
+  color: #ffffff;
+  background: #0000cc;
+}
+a.modt .label:hover {
+  background: #000099;
+}
+.stylet {
+  color: #CC33CC;
+}
+a.stylet {
+  color: #cc33cc;
+}
+a.stylet:hover {
+  color: #a329a3;
+  text-decoration: underline;
+}
+a.stylet .label {
+  color: #ffffff;
+  background: #cc33cc;
+}
+a.stylet .label:hover {
+  background: #a329a3;
+}
+.supt {
+  color: #CC6600;
+}
+a.supt {
+  color: #cc6600;
+}
+a.supt:hover {
+  color: #994d00;
+  text-decoration: underline;
+}
+a.supt .label {
+  color: #ffffff;
+  background: #cc6600;
+}
+a.supt .label:hover {
+  background: #994d00;
+}
+.user {
+  color: #21b5e4;
+}
+a.user {
+  color: #21b5e4;
+}
+a.user:hover {
+  color: #1794bb;
+  text-decoration: underline;
+}
+a.user .label {
+  color: #ffffff;
+  background: #21b5e4;
+}
+a.user .label:hover {
+  background: #1794bb;
+}
+.webt {
+  color: #0099CC;
+}
+a.webt {
+  color: #0099cc;
+}
+a.webt:hover {
+  color: #007399;
+  text-decoration: underline;
+}
+a.webt .label {
+  color: #ffffff;
+  background: #0099cc;
+}
+a.webt .label:hover {
+  background: #007399;
+}
