@@ -7,6 +7,6 @@
     --------------------------------------------------------------
 */
 
-@import url("../assests/css/global.css"); 		/* Base styles (Reset, Defaults) - DO NOT MAKE CHANGES TO THIS FILE */
-@import url("../assests/css/core.css");			/* Default structure syles (grids, responsive uilities) */
-@import url("../assests/css/theme.css");		/* All changes for individual themes */
+@import url("../assets/css/global.css"); 		/* Base styles (Reset, Defaults) - DO NOT MAKE CHANGES TO THIS FILE */
+@import url("../assets/css/core.css");			/* Default structure syles (grids, responsive uilities) */
+@import url("../assets/css/theme.css");		/* All changes for individual themes */
