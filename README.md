@@ -37,11 +37,10 @@ It also has mixins that make working with media queries extremely powerful and s
 - [X] 1. Style Guide Creation (Colors/Fonts/Form Elements/Buttons/Look & Feel)
 - [X] 2. Framework/Grid devlopment
 - [ ] 3. HTML/CSS prototyping of static area51 page by page.
-- [ ] 4. Break it up into template files
-- [ ] 5. Apply aesthtics
-- [ ] 6. Add in JS
-- [ ] 7. Fix template engine to work with new proposed template structure
-- [ ] 8. Beta/Approaval
+- [ ] 4. Add in PHPBB JS
+- [ ] 5. Cleanup all html css
+- [ ] 6. Fix template engine to work with new proposed template structure
+- [ ] 7. Beta/Approaval
 
 ## LICENSE
 [GNU General Public License v2](http://opensource.org/licenses/gpl-2.0.php)
