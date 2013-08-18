@@ -10,10 +10,10 @@
 									</dfn>
 								</hgroup>                          
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">575</span>  
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>575</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Text <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite>
 								</p>
 							</li>
@@ -21,14 +21,14 @@
 								<hgroup class="col-sm-9">
 									<h2 class="forum-title h5"><a class="pull-left" href="#">General Development Discussion</a></h2>
 									<dfn class="forum-description popover bottom">
-										<b class="arrow"></b><span class="popover-content">Discuss general development subjects that are not specific to a particular version like the versioning control system we use or other infrastructure.</span>
+										<b class="arrow"></b><span class="popover-content">Discuss general development forum-subjects that are not specific to a particular version like the versioning control system we use or other infrastructure.</span>
 									</dfn>                          
 								</hgroup>
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">1289</span>  
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>1289</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Git push account - … <small>by <a href="#" class="user" title="USER: user">user</a> <time>May 07</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Git push account - … <small>by <a href="#" class="user" title="USER: user">user</a> <time>May 07</time></small></span>
 									</cite>
 								</p>
 							</li>
@@ -45,10 +45,10 @@
 									</dfn>                           
 								</hgroup>
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">4429</span> 
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>4429</span> 
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite>
 								</p>
 							</li>
@@ -60,28 +60,22 @@
 									</dfn>                          
 								</hgroup>
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">4862</span>  
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>4862</span>  
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite>
 								</p>
-							</li>
-							<li class="forum-row forum-sub row">
-								<hgroup class="col-sm-9">
-									<span class="forum-icon glyphicon glyphicon-minus pull-left"></span>
-									<h2 class="forum-title h5"><a class="pull-left" href="#">[3.x] Event Requests</a></h2>
-									<dfn class="forum-description popover bottom">
-										<b class="arrow"></b><span class="popover-content">Request hook events and what data needs to be sent for the new hook system.</span>
-									</dfn>                          
-								</hgroup>
-								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">61</span>  
-									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
-									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
-									</cite>
-								</p>
+								<div class="forum-sub row">
+									<ul class="col-sm-12 list-inline">
+										<span class="forum-icon glyphicon glyphicon-minus"></span>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">3.x] Event Requests</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.2] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.3] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.4] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.5] RFCs</a></h3></li>
+									</ul>
+								</div>
 							</li>
 							<li class="forum-row row">
 								<hgroup class="col-sm-9">
@@ -102,28 +96,22 @@
 									</dfn>                        
 								</hgroup>
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">2821</span>    
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>2821</span>    
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite>
 								</p>
-							</li>
-							<li class="forum-row forum-sub row">
-								<hgroup class="col-sm-9">
-									<span class="forum-icon glyphicon glyphicon-minus pull-left"></span>
-									<h2 class="forum-title h5"><a class="pull-left" href="#">[3.1/Ascraeus] Merged Event Requests</a></h2>
-									<dfn class="forum-description popover bottom">
-										<b class="arrow"></b><span class="popover-content">These requests for events in core phpBB have been merged into 3.1/Ascraeus and will be available with the next release.</span>
-									</dfn>                          
-								</hgroup>
-								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">79</span>  
-									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
-									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
-									</cite>
-								</p>
+								<div class="forum-sub row">
+									<ul class="col-sm-12 list-inline">
+										<span class="forum-icon glyphicon glyphicon-minus"></span>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.1/Ascraeus] Merged Event Requests</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.2] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.3] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.4] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.5] RFCs</a></h3></li>
+									</ul>
+								</div>
 							</li>
 							<li class="forum-row row">
 								<hgroup class="col-sm-9">
@@ -133,28 +121,22 @@
 									</dfn>                           
 								</hgroup>
 								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">841</span> 
+									<span class="label pull-left hidden-sm"><dfn>Posts: </dfn>841</span> 
 									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
 									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
+										<b class="arrow"></b><span class="popover-content"><dfn>Recent: </dfn>Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
 									</cite>
 								</p>
-							</li>
-							<li class="forum-row forum-sub row">
-								<hgroup class="col-sm-9">
-									<span class="forum-icon glyphicon glyphicon-minus pull-left"></span>
-									<h2 class="forum-title h5"><a class="pull-left" href="#">[3.x] Rejected Event Requests</a></h2>
-									<dfn class="forum-description popover bottom">
-										<b class="arrow"></b><span class="popover-content">These event requests have either been rejected by the community or have become redundant because of code changes or other events requests.</span>
-									</dfn>                         
-								</hgroup>
-								<p class="forum-recent col-sm-2 col-sm-offset-1 hidden-sm">
-									<span class="label pull-left hidden-sm">40</span>   
-									<a class="pull-right" href="#" title=""><span class="glyphicon glyphicon-chevron-right"></span></a>
-									<cite class="popover left">
-										<b class="arrow"></b><span class="popover-content">Text  <small>by <a href="#" class="user" title="USER: user">user</a> <time>22 minutes ago</time></small></span>
-									</cite>
-								</p>
+								<div class="forum-sub row">
+									<ul class="col-sm-12 list-inline">
+										<span class="forum-icon glyphicon glyphicon-minus"></span>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.1/Ascraeus] Rejected Event Requests</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.2] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.3] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.4] RFCs</a></h3></li>
+										<li><h3 class="forum-sub-title h6"><a href="#" title="">[3.5] RFCs</a></h3></li>
+									</ul>
+								</div>
 							</li>
 						</ol>
 					</li>
