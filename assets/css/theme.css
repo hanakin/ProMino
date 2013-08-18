@@ -3,6 +3,9 @@
    Theme specific Content & alterations
    ==========================================================================
 */
+/*
+ * Label List
+ * --------------------------------------------------*/
 .label-list {
   display: inline-block;
   padding-left: 0;
@@ -70,7 +73,7 @@
 }
 .header > hgroup {
   padding: 7px 12px;
-  margin: 12px 0;
+  margin: 12px 0 0;
   background: #333333;
   border-radius: 6px;
 }
@@ -79,6 +82,11 @@
 }
 .header > hgroup a:hover .glyphicon {
   color: #ffffff;
+}
+@media (min-width: 768px) {
+  .header > hgroup {
+    margin-bottom: 12px;
+  }
 }
 .header-nav > ul {
   margin-top: 7px;
@@ -118,8 +126,10 @@
 .forums {
   margin-bottom: 0;
 }
-.forum {
-  padding-bottom: 24px;
+@media (min-width: 768px) {
+  .forum {
+    padding-bottom: 24px;
+  }
 }
 .forum-name {
   padding: 6px 24px;
@@ -140,7 +150,7 @@
   }
 }
 .forum-row {
-  padding: 6px;
+  padding: 6px 6px 8px;
   background: #ffffff;
   border-bottom: 1px solid #cccccc;
 }
@@ -150,6 +160,9 @@
 .forum-row .h5 {
   margin: 0;
 }
+.forum-row:last-of-type {
+  border-bottom: none;
+}
 .forum-row:hover {
   background: #e6e6e6;
 }
@@ -158,6 +171,9 @@
 }
 .forum-row:hover .forum-recent > a {
   color: #333333;
+}
+.forum:last-of-type .forum-row:last-of-type {
+  border-bottom: 1px solid #dddddd;
 }
 @media (min-width: 768px) {
   .forum-row {
@@ -180,7 +196,7 @@
 }
 .forum-icon {
   font-size: 14px;
-  padding-right: 12px;
+  padding-right: 6px;
 }
 .forum-title:before,
 .forum-title:after {
@@ -222,19 +238,13 @@
   color: #4f9fd0;
   background: #4f9fd0;
 }
-.forum-sub {
-  background: #f5f5f5;
-  padding-left: 1px;
-}
-.forum-sub .label {
-  color: #f5f5f5;
-}
 .forum-description {
   padding-top: 6px;
 }
 .forum-description.popover {
   max-width: 60%;
   left: 40%;
+  float: none;
 }
 .forum-description.popover.bottom {
   margin-top: 35px;
@@ -270,6 +280,17 @@
   padding-top: 4px;
   margin-bottom: 0;
 }
+.forum-recent dfn {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.forum-recent dfn .glyphicon {
+  font-size: inherit;
+  color: inherit;
+}
 .forum-recent > a {
   color: #cccccc;
 }
@@ -279,6 +300,32 @@
 .forum-recent .popover {
   margin-left: -36px;
   top: -15px;
+}
+.forum-sub {
+  position: relative;
+  top: 8px;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+.forum-sub ul {
+  padding: 6px 0 6px 20px;
+  background: #f5f5f5;
+  border-top: 1px solid #cccccc;
+}
+.forum-sub ul li .h6 {
+  margin: 0;
+}
+.forum-sub ul li .h6:after {
+  content: ", ";
+}
+.forum-sub ul li:last-of-type .h6:after {
+  content: "";
+}
+@media (min-width: 768px) {
+  .forum-row:last-of-type .forum-sub ul {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
 }
 @media (min-width: 992px) {
   .forum-recent:hover .popover {
@@ -360,6 +407,11 @@
     font-size: 14px;
   }
 }
+/*
+ * Custom Theme Styles
+ * --------------------------------------------------*/
+/* Administrator Color
+ * --------------------------------------------------*/
 .admint {
   color: #BC2A4D;
 }
@@ -377,6 +429,8 @@ a.admint .label {
 a.admint .label:hover {
   background: #92213c;
 }
+/* Bot Color
+ * --------------------------------------------------*/
 .bot {
   color: #cccccc;
 }
@@ -394,6 +448,8 @@ a.bot .label {
 a.bot .label:hover {
   background: #b3b3b3;
 }
+/* Developer Color
+ * --------------------------------------------------*/
 .dev {
   color: #009900;
 }
@@ -411,6 +467,8 @@ a.dev .label {
 a.dev .label:hover {
   background: #006600;
 }
+/* Mod Developer Color
+ * --------------------------------------------------*/
 .mod {
   color: #660099;
 }
@@ -428,6 +486,8 @@ a.mod .label {
 a.mod .label:hover {
   background: #440066;
 }
+/* Moderator Color
+ * --------------------------------------------------*/
 .modt {
   color: #0000CC;
 }
@@ -445,6 +505,8 @@ a.modt .label {
 a.modt .label:hover {
   background: #000099;
 }
+/* Styles Team Color
+ * --------------------------------------------------*/
 .stylet {
   color: #CC33CC;
 }
@@ -462,6 +524,8 @@ a.stylet .label {
 a.stylet .label:hover {
   background: #a329a3;
 }
+/* Support Staff Color
+ * --------------------------------------------------*/
 .supt {
   color: #CC6600;
 }
@@ -479,6 +543,8 @@ a.supt .label {
 a.supt .label:hover {
   background: #994d00;
 }
+/* User Color
+ * --------------------------------------------------*/
 .user {
   color: #21b5e4;
 }
@@ -496,6 +562,8 @@ a.user .label {
 a.user .label:hover {
   background: #1794bb;
 }
+/* Web Team Color
+ * --------------------------------------------------*/
 .webt {
   color: #0099CC;
 }
