@@ -8,7 +8,7 @@
 	> hgroup { 
 		// Structure
 		padding: @padding-base-vertical+1 @padding-base-horizontal;
-		margin: @padding-base-vertical*2 0;
+		margin: @padding-base-vertical*2 0 0;
 		
 		// Look
 		background: @black;
@@ -17,6 +17,8 @@
 		border-radius: @border-radius-large;
 	}
 }
+
+@media (min-width: @screen-tablet) { .header > hgroup { margin-bottom: @padding-base-vertical*2; } }
 
 .header-nav > ul { margin-top: @padding-base-vertical+1; }
 
