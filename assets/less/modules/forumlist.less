@@ -22,9 +22,11 @@
 @media (min-width: @screen-tablet) { .forum-name { .border-top-radius(4px); } }
 .forum-row { 
 	// Structure
-	padding: @padding-base-vertical @padding-base-vertical @padding-base-vertical+2;
+	padding: 0 @padding-base-vertical;
 	hgroup { 
-		margin-top: 6px; 
+		margin: 0;
+		padding-top: @padding-base-vertical+2;
+		padding-bottom: @padding-base-vertical;
 	}
 	.h5 { margin: 0; }
 	&:last-of-type { border-bottom: none; }
@@ -34,9 +36,7 @@
 	&:hover {
 		background: @white-dark;
 		// cursor: pointer;
-		.label { color: @white-dark; }
-		.forum-recent > a { color: @black; }
-		
+		.label { color: @white-dark; }		
 	}
 }
 .forum:last-of-type .forum-row:last-of-type { border-bottom: 1px solid @panel-border; }
@@ -68,6 +68,7 @@
 	font-size: 10px;
 	text-transform: uppercase;
 }
+@media (min-width: @screen-tablet) { .forum-labels { margin-top: -2px; } }
 // forum-label variants
 .locked,
 .unread,
@@ -121,7 +122,7 @@
 }
 
 .forum-recent {
-	padding-top: 4px;
+	margin-top: 5px;
 	margin-bottom: 0;
 	dfn { .hide-text(); }
 	> a { 
@@ -135,8 +136,6 @@
 }
 
 .forum-sub {
-	position: relative;
-	top: @padding-base-vertical+2;
 	margin-left: -@padding-base-vertical;
 	margin-right: -@padding-base-vertical;
 	ul { 
@@ -152,7 +151,10 @@
 		}
 	}
 }
-@media (min-width: @screen-tablet) { .forum-row:last-of-type .forum-sub ul { .border-bottom-radius(@border-radius-base); } }
+@media (min-width: @screen-tablet) { 
+	.forum-sub { height: 0; }
+	.forum-row:last-of-type .forum-sub ul { .border-bottom-radius(@border-radius-base); } 
+}
 
 @media (min-width: @screen-desktop) {
 	.forum-recent:hover .popover { display: block; }
