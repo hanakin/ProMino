@@ -10,37 +10,12 @@
 @import "../framework/_mixins.less";
 
 // Framework Components
-@import "../framework/_glyphicon.less";
-@import "../framework/_buttons.less";
-@import "../framework/_labels.less";
-@import "../framework/_breadcrumb.less";
-
-// Customization
-.breadcrumb {
-	.glyphicon { font-size: @font-size-base; }
-	background-color: @white-darker;
-	> li {
-		&+li:before {
-			content: "\276e"; // Unicode space added since inline-block means non-collapsing white-space
-			padding: 0 @padding-base-horizontal;
-		}
-	}
-}
-
-// Tablets & small desktops only
-@media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
-	.breadcrumb {
-		background-color: @breadcrumb-bg;
-	}
-}
-
-@media (min-width: @screen-desktop) {
-	.breadcrumb {
-		background-color: @breadcrumb-bg;
-	}
-}
-
-@import "../framework/_badges.less";
-@import "../framework/_panels.less";
-@import "../framework/_popover.less";
-@import "../framework/_tooltip.less";
+@import "../modules/glyphicon.less";
+@import "../modules/buttons.less";
+@import "../modules/labels.less";
+@import "../modules/breadcrumb.less";
+@import "../modules/badges.less";
+@import "../modules/panels.less";
+@import "../modules/popover.less";
+@import "../modules/tooltip.less";
+@import "../modules/label-list.less";

@@ -8,18 +8,29 @@
    ==========================================================================
 */
 
-@import "modules/label-list.less";
-@import "modules/toolbar.less";
-
-// It is highly recomended that you break up the theme into sub components or modules and use this file to include them
-@import "modules/navbar.less";
-@import "modules/forumlist.less";
-@import "modules/info.less";
-@import "modules/copyright.less";
+// It is highly recomended that you break up the theme into sub components and use this file to include them
+@import "structure/toolbar.less";
+@import "structure/navbar.less";
+@import "structure/forumlist.less";
+@import "structure/info.less";
+@import "structure/copyright.less";
 
 /*
  * Custom Theme Styles
  * --------------------------------------------------*/
+ .dl-inline {
+	dt { 
+		clear: none; 
+		width: auto;
+		margin: 0 @padding-base-horizontal;
+		font-size: @font-size-small;
+	}
+	dd { 
+		float: left;
+		margin: -3px @padding-base-horizontal 0 0; 
+	}
+	.clearfix();
+}
 
  /* Administrator Color
  * --------------------------------------------------*/

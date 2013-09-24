@@ -1,0 +1,24 @@
+//
+// Labels
+// --------------------------------------------------
+
+.label {
+	display: inline-block;
+	padding: .2em .6em;
+	font-size: .8em;
+	font-weight: 500;
+	color: #fff;
+	background-color: @gray;
+	border-radius: .3em;
+
+	// Add hover effects, but only for links
+	&[href] {
+		&:hover,
+		&:focus {
+			color: #fff;
+			text-decoration: none;
+			cursor: pointer;
+			background-color: darken(@gray, 10%);
+		}
+	}
+}

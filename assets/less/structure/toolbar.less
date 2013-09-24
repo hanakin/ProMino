@@ -1,0 +1,25 @@
+/*
+ * Toolbar
+ * --------------------------------------------------*/
+.toolbar { margin-bottom: @padding-base-vertical*2;}
+.toolbar-tools {
+	margin: 0;
+	.label { font-size: 1em; }
+	margin-top: -8px;
+	.text-hide { display: none;}
+	a .label { 
+		color: @gray;
+		background: @gray-lighter;
+		&:hover { 
+			color: @black;
+			//background: @gray-darker; 
+		}
+		padding: .3em .6em .1em;
+	}
+	.clearfix();
+	.label-list-right { 
+		position: relative;
+		top: 1px;
+	}
+}
+
